@@ -1,0 +1,80 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+include /usr/share/dpatch/dpatch.make
+
+DEB_HOST_GNU_TYPE   ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
+DEB_BUILD_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
+
+NCPUS := $(shell getconf _NPROCESSORS_ONLN 2>/dev/null || echo 1)
+
+ifeq ($(NCPUS),-1)
+	NCPUS:=1
+endif
+
+ifeq ($(NCPUS),0)
+	NCPUS:=1
+endif
+
+CMAKE_SYSTEM_PROCESSOR = $(shell dpkg-architecture -qDEB_BUILD_ARCH)
+
+configure: configure-stamp
+configure-stamp: patch
+	dh_testdir
+	[ -d build ] || mkdir build
+	cp CMakeLists.txt build
+	cp -r cmake build
+	cp -r po build
+	cp -r effects build
+	cp -r icons build
+	cp -r src build
+	cp -r renderer build
+	cp -r thumbnailer build
+	cp -r export build
+	cp -r data build
+	cd build && cmake . -DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_C_FLAGS:STRING="$(CFLAGS)" -DCMAKE_CXX_COMPILER=/usr/lib/ccache/g++ \
+	-DCMAKE_SKIP_RPATH:BOOL=YES
+	touch $@
+
+build: build-stamp
+build-stamp: configure
+	dh_testdir
+	cd build && $(MAKE) -j $(NCPUS)
+	touch $@
+
+clean: unpatch
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	rm -rf build
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/kdenlive
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installman
+	dh_installdirs
+	dh_link
+	dh_strip
+	dh_compress -Xindex.docbook
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
