@@ -11,18 +11,30 @@ Package: kdenlive
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: swh-plugins, dvgrab
-Description: A Non-Linear Video Editing Suite for KDE
- Kdenlive! (pronounced Kay-den-live) is a Non-Linear Video Editing Suite for
- KDE environment running on Linux.
- .
- It is based on the MLT video framework which relies on the FFMPEG project.
+Description: a non-linear video editor
+ Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ more formats.
+ It main features are:
+  Guides and marker for organizing timelines
+  Copy and paste support for clips, effects and transitions
+  Real time changes
+  Firewire and Video4Linux capture
+  Screen grabbing
+  Exporting to any by FFMPEG supported forma
 
 Package: kdenlive-dbg
 Architecture: any
 Priority: extra
 Depends: kdenlive (= ${binary:Version})
-Description: A Non-Linear Video Editing Suite for KDE (dbg symbols)
- Kdenlive! (pronounced Kay-den-live) is a Non-Linear Video Editing Suite for
- KDE environment running on Linux.
+Description: a non-linear video editor (debugging symbols)
+ Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ more formats.
+ It main features are:
+  Guides and marker for organizing timelines
+  Copy and paste support for clips, effects and transitions
+  Real time changes
+  Firewire and Video4Linux capture
+  Screen grabbing
+  Exporting to any by FFMPEG supported format
  .
- It is based on the MLT video framework which relies on the FFMPEG project.
+ This package contains the debugging symbols for kdenlive.
