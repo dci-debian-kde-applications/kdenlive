@@ -1,5 +1,9 @@
 This package was debianized by Patrick Matthäi <patrick.matthaei@web.de> on
 Wed, 26 Nov 2008 23:18:12 +0200.
+I also took some impressions and debian/rules code from Christian Marillat's
+<marillat@debian.org> debian-multimedia.org packaging. Thanks for your previous
+work.
+
 
 It was downloaded from: http://sourceforge.net/projects/kdenlive
 
