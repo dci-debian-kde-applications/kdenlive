@@ -25,7 +25,7 @@ Description: a non-linear video editor
 Package: kdenlive-dbg
 Architecture: any
 Priority: extra
-Depends: kdenlive (= ${binary:Version})
+Depends: ${misc:Depends}, kdenlive (= ${binary:Version})
 Description: a non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
