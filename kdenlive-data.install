@@ -1,6 +1,5 @@
-debian/tmp/usr/share/doc usr/share/doc/
-debian/tmp/usr/share/icons usr/share/icons/
-debian/tmp/usr/share/config.kcfg usr/share/config.kcfg/
-debian/tmp/usr/share/kde4 usr/share/kde4/
-debian/tmp/usr/share/locale usr/share/locale/
-debian/tmp/usr/share/mime usr/share/mime/
+debian/tmp/usr/share/icons usr/share/
+debian/tmp/usr/share/config.kcfg usr/share/
+debian/tmp/usr/share/kde4 usr/share/
+debian/tmp/usr/share/locale usr/share/
+debian/tmp/usr/share/mime usr/share/
