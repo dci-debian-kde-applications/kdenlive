@@ -51,31 +51,44 @@ clean: unpatch
 	dh_testroot
 	rm -f build-stamp configure-stamp
 	rm -rf build
+	rm -rf $(CURDIR)/debian/tmp
 	dh_clean
 
 install: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
-	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/kdenlive
+	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/tmp
 
 binary-indep: build install
+	dh_testdir -i
+	dh_testroot -i
+	dh_installchangelogs -i
+	dh_installdocs -i
+	dh_installdirs -i
+	dh_install -i
+	dh_link -i
+	dh_compress -i
+	dh_fixperm -i
+	dh_installdeb -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
 
 binary-arch: build install
-	dh_testdir
-	dh_testroot
-	dh_installchangelogs
-	dh_installdocs
-	dh_installdirs
-	dh_link
-	dh_strip --dbg-package=kdenlive-dbg
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	dh_shlibdeps
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
+	dh_testdir -a
+	dh_testroot -a
+	dh_installchangelogs -a
+	dh_installdocs -a
+	dh_install -a
+	dh_strip -a --dbg-package=kdenlive-dbg
+	dh_compress -a
+	dh_fixperms -a
+	dh_installdeb -a
+	dh_shlibdeps -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install

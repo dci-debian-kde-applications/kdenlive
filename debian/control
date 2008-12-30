@@ -9,7 +9,7 @@ DM-Upload-Allowed: yes
 
 Package: kdenlive
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, inigo, libmlt-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdenlive-data (= ${source:Version}), inigo, libmlt-data
 Recommends: swh-plugins, dvgrab
 Description: a non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
@@ -20,7 +20,24 @@ Description: a non-linear video editor
   Real time changes
   Firewire and Video4Linux capture
   Screen grabbing
-  Exporting to any by FFMPEG supported forma
+  Exporting to any by FFMPEG supported format
+
+Package: kdenlive-data
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: kdenlive
+Description: a non-linear video editor (data files)
+ Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ more formats.
+ It main features are:
+  Guides and marker for organizing timelines
+  Copy and paste support for clips, effects and transitions
+  Real time changes
+  Firewire and Video4Linux capture
+  Screen grabbing
+  Exporting to any by FFMPEG supported format
+ .
+ This packages contains the data files for kdenlive.
 
 Package: kdenlive-dbg
 Architecture: any

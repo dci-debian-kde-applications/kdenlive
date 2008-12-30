@@ -1,0 +1,4 @@
+debian/tmp/usr/lib usr/lib/
+debian/tmp/usr/share/man usr/share/man/
+debian/tmp/usr/share/applications/kde usr/share/applications/kde/
+debian/tmp/usr/bin usr/bin/
