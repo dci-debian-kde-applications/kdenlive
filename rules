@@ -69,7 +69,7 @@ binary-indep: build install
 	dh_install -i
 	dh_link -i
 	dh_compress -i
-	dh_fixperm -i
+	dh_fixperms -i
 	dh_installdeb -i
 	dh_gencontrol -i
 	dh_md5sums -i
@@ -81,6 +81,7 @@ binary-arch: build install
 	dh_installchangelogs -a
 	dh_installdocs -a
 	dh_install -a
+	dh_installmenu -a
 	dh_strip -a --dbg-package=kdenlive-dbg
 	dh_compress -a
 	dh_fixperms -a
