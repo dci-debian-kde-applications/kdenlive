@@ -38,5 +38,23 @@ License:
 On Debian systems, the complete text of the GNU General Public License
 can be found in /usr/share/common-licenses/GPL file.
 
+
+The following files have additional copyright holders:
+
+src/abstractclipitem.{cpp,h}, src/abstractgroupitem.{cpp,h}:
+	© 2008 by Marco Gittler (g.marco@freenet.de)
+
+src/main.cpp:
+	© 2007 by Marco Gittler (g.marco@freenet.de)
+
+src/regiongrabber.{cpp,h}:
+	© 2007 Luca Gugelmann <lucag@student.ethz.ch>
+
+src/statusbarmessagelabel.{cpp,h}:
+	© 2006 by Peter Penz
+
+thumbnailer/westleypreview.{cpp,h}:
+	© 2006-2008 by Marco Gulino <marco@kmobiletools.org>
+
 The Debian packaging is © 2009, Patrick Matthäi <patrick.matthaei@web.de> and
 is licensed under the GPL, see above.
