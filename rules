@@ -33,6 +33,7 @@ configure-stamp:
 	cp -r data build
 	cp -r lumas build
 	cp -r man build
+	cp -r plugins build
 	cd build && cmake . -DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_C_FLAGS:STRING="$(CFLAGS)" -DCMAKE_CXX_COMPILER=/usr/lib/ccache/g++ \
 	-DCMAKE_SKIP_RPATH:BOOL=YES
@@ -55,7 +56,7 @@ clean:
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k
+	dh_prep
 	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/tmp
 
 binary-indep: build install
@@ -80,6 +81,7 @@ binary-arch: build install
 	dh_installdocs -a
 	dh_install -a
 	dh_installmenu -a
+	dh_desktop -a
 	dh_strip -a --dbg-package=kdenlive-dbg
 	dh_compress -a
 	dh_fixperms -a
