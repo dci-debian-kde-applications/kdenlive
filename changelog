@@ -1,12 +1,6 @@
-kdenlive (0.7.1-2) UNRELEASED; urgency=low
-
-  * Add get-orig-source target.
-
- -- Patrick Matthäi <patrick.matthaei@web.de>  Sat, 10 Jan 2009 12:47:24 +0200
-
-kdenlive (0.7.1-1) unstable; urgency=low
+kdenlive (0.7.2-1) UNRELEASED; urgency=low
 
   * Initial release.
     Closes: #180510
 
- -- Patrick Matthäi <patrick.matthaei@web.de>  Mon, 29 Dec 2008 13:39:32 +0200
+ -- Patrick Matthäi <patrick.matthaei@web.de>  Wed,  4 Feb 2009 13:39:32 +0200
