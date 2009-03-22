@@ -56,5 +56,11 @@ src/statusbarmessagelabel.{cpp,h}:
 thumbnailer/westleypreview.{cpp,h}:
 	© 2006-2008 by Marco Gulino <marco@kmobiletools.org>
 
+src/kthumb.h, src/renderer.cpp:
+	© 2005 Lucio Flavio Correa
+
+thumbnailer/westleypreview.h:
+	© 2006-2008 Marco Gulino <marco@kmobiletools.org>
+
 The Debian packaging is © 2009, Patrick Matthäi <patrick.matthaei@web.de> and
 is licensed under the GPL, see above.
