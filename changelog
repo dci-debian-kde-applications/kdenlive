@@ -1,13 +1,6 @@
-kdenlive (0.7.2.1-2) UNRELEASED; urgency=low
-
-  * Bump Standards-Version to 3.8.1 (no changes needed).
-  * Change section of kdenlive to video and of kdenlive-dbg to debug.
-
- -- Patrick Matthäi <patrick.matthaei@web.de>  Sun, 15 Mar 2009 20:33:51 +0200
-
 kdenlive (0.7.2.1-1) unstable; urgency=low
 
   * Initial release.
     Closes: #180510
 
- -- Patrick Matthäi <patrick.matthaei@web.de>  Wed,  4 Feb 2009 13:39:32 +0200
+ -- Patrick Matthäi <patrick.matthaei@web.de>  Sun, 22 Mar 2009 17:21:32 +0200
