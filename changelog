@@ -1,6 +1,6 @@
-kdenlive (0.7.2.1-1) experimental; urgency=low
+kdenlive (0.7.2.1-1) unstable; urgency=low
 
   * Initial release.
     Closes: #180510
 
- -- Patrick Matthäi <patrick.matthaei@web.de>  Sun, 22 Mar 2009 17:21:32 +0200
+ -- Patrick Matthäi <patrick.matthaei@web.de>  Tue,  7 Apr 2009 19:06:32 +0200
