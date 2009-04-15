@@ -1,3 +1,9 @@
+kdenlive (0.7.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Patrick Matthäi <patrick.matthaei@web.de>  Wed, 15 Apr 2009 19:12:37 +0200
+
 kdenlive (0.7.2.1-1) unstable; urgency=low
 
   * Initial release.
