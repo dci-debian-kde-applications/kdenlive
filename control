@@ -1,7 +1,7 @@
 Source: kdenlive
 Section: video
 Priority: optional
-Maintainer: Patrick Matthäi <patrick.matthaei@web.de>
+Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.8.1
 Build-Depends: debhelper (>= 7), cmake, ccache, kdelibs5-dev, libavc1394-dev, libmlt-dev, libmlt++-dev, libiec61883-dev, libavcodec-dev, libavformat-dev, libavdevice-dev, libavutil-dev
