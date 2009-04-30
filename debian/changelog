@@ -3,8 +3,9 @@ kdenlive (0.7.3-1) UNRELEASED; urgency=low
   * New upstream release.
   * Change my email address.
   * Remove DM-Upload-Allowed control field.
+  * Fix typo in get-orig-source target.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 20 Apr 2009 19:44:59 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 30 Apr 2009 08:40:42 +0200
 
 kdenlive (0.7.2.1-1) unstable; urgency=low
 
