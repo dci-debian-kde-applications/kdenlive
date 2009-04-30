@@ -94,7 +94,7 @@ binary-arch: build install
 get-orig-source:
 	@@dh_testdir
 	@@[ -d ../tarballs/. ]||mkdir -p ../tarballs
-	@@uscan --force-download --destdir ../tarball
+	@@uscan --force-download --destdir ../tarballs
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install
