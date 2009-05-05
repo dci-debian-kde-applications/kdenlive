@@ -82,5 +82,5 @@ src/kthumb.h, src/renderer.cpp:
 thumbnailer/westleypreview.h:
 	© 2006-2008 Marco Gulino <marco@kmobiletools.org>
 
-The Debian packaging is © 2009, Patrick Matthäi <patrick.matthaei@web.de> and
+The Debian packaging is © 2009, Patrick Matthäi <pmatthaei@debian.org> and
 is licensed under the GPL, see above.
