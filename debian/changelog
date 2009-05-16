@@ -2,11 +2,13 @@ kdenlive (0.7.3-2) UNRELEASED; urgency=low
 
   * Link to the LGPL-2 instead of GPL-2 for src/regiongrabber.{cpp,h} in
     debian/copyright.
-  * Remove ccache build dependencie to avoid kdenlive FTBFSing on Debian
+  * Remove ccache build dependencie and do not override the default compiler in
+    debian/rules to the ccache g++ one to avoid kdenlive FTBFSing on Debian
     buildds.
     Closes: #528967
+  * Add upstreams README to kdenlive.docs.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 21:02:07 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 21:09:18 +0200
 
 kdenlive (0.7.3-1) unstable; urgency=low
 
