@@ -36,8 +36,7 @@ configure-stamp:
 	cp -r man build
 	cp -r plugins build
 	cd build && cmake . -DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_C_FLAGS:STRING="$(CFLAGS)" -DCMAKE_CXX_COMPILER=/usr/lib/ccache/g++ \
-	-DCMAKE_SKIP_RPATH:BOOL=YES
+	-DCMAKE_C_FLAGS:STRING="$(CFLAGS)" -DCMAKE_SKIP_RPATH:BOOL=YES
 	touch $@
 
 build: build-stamp
