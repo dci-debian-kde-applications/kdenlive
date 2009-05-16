@@ -37,7 +37,7 @@ License (src/regiongrabber.cpp, src/regiongrabber.h):
 		51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 On Debian systems, the complete text of the GNU General Public License
-version 2 can be found in the /usr/share/common-licenses/GPL-2 file.
+version 2 can be found in the /usr/share/common-licenses/LGPL-2 file.
 
 License (everything else):
 
