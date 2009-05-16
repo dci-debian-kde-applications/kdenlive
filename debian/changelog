@@ -4,8 +4,9 @@ kdenlive (0.7.3-1) UNRELEASED; urgency=low
   * Change my email address.
   * Remove DM-Upload-Allowed control field.
   * Fix typo in get-orig-source target.
+  * Fix reference to the GPL license (missing whitespace).
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 30 Apr 2009 08:40:42 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 19:16:18 +0200
 
 kdenlive (0.7.2.1-1) unstable; urgency=low
 

@@ -1,4 +1,4 @@
-This package was debianized by Patrick Matthäi <patrick.matthaei@web.de> on
+This package was debianized by Patrick Matthäi <pmatthaei@debian.org> on
 Wed, 26 Nov 2008 23:18:12 +0200.
 I also took some impressions and debian/rules code from Christian Marillat's
 <marillat@debian.org> debian-multimedia.org packaging. Thanks for your previous
@@ -37,7 +37,7 @@ License (src/regiongrabber.cpp, src/regiongrabber.h):
 		51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 On Debian systems, the complete text of the GNU General Public License
-version 2 can be found in the/usr/share/common-licenses/GPL-2 file.
+version 2 can be found in the /usr/share/common-licenses/GPL-2 file.
 
 License (everything else):
 
@@ -56,7 +56,7 @@ License (everything else):
         Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 On Debian systems, the complete text of the GNU General Public License
-can be found in the /usr/share/common-licenses/GPL file.
+can be found in the /usr/share/common-licenses/GPL-2 file.
 
 
 The following files have additional copyright holders:
