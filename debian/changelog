@@ -1,4 +1,4 @@
-kdenlive (0.7.3-2) UNRELEASED; urgency=low
+kdenlive (0.7.3-2) unstable; urgency=low
 
   * Link to the LGPL-2 instead of GPL-2 for src/regiongrabber.{cpp,h} in
     debian/copyright.
@@ -8,7 +8,7 @@ kdenlive (0.7.3-2) UNRELEASED; urgency=low
     Closes: #528967
   * Add upstreams README to kdenlive.docs.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 21:09:18 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 21:11:29 +0200
 
 kdenlive (0.7.3-1) unstable; urgency=low
 
