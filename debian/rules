@@ -22,6 +22,7 @@ configure-stamp:
 	dh_testdir
 	[ -d build ] || mkdir build
 	cp CMakeLists.txt build
+	cp kdenlive-config.h.cmake build
 	cp -r cmake build
 	cp -r po build
 	cp -r effects build
