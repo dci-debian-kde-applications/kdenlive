@@ -1,4 +1,4 @@
-kdenlive (0.7.3-1) UNRELEASED; urgency=low
+kdenlive (0.7.3-1) unstable; urgency=low
 
   * New upstream release.
   * Change my email address.
@@ -6,7 +6,7 @@ kdenlive (0.7.3-1) UNRELEASED; urgency=low
   * Fix typo in get-orig-source target.
   * Fix reference to the GPL license (missing whitespace).
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 19:16:18 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 16 May 2009 19:17:03 +0200
 
 kdenlive (0.7.2.1-1) unstable; urgency=low
 
