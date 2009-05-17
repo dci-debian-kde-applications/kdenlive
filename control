@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.8.1
-Build-Depends: debhelper (>= 7), cmake, kdelibs5-dev, libavc1394-dev, libmlt-dev, libmlt++-dev, libiec61883-dev, libavcodec-dev, libavformat-dev, libavdevice-dev, libavutil-dev
+Build-Depends: debhelper (>= 7), pkg-config, cmake, kdelibs5-dev, libavc1394-dev, libmlt-dev, libmlt++-dev, libiec61883-dev, libavcodec-dev, libavformat-dev, libavdevice-dev, libavutil-dev
 
 Package: kdenlive
 Architecture: any
