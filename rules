@@ -21,22 +21,7 @@ configure: configure-stamp
 configure-stamp:
 	dh_testdir
 	[ -d build ] || mkdir build
-	cp CMakeLists.txt build
-	cp kdenlive-config.h.cmake build
-	cp -r cmake build
-	cp -r po build
-	cp -r effects build
-	cp -r icons build
-	cp -r src build
-	cp -r renderer build
-	cp -r thumbnailer build
-	cp -r export build
-	cp -r data build
-	cp -r lumas build
-	cp -r man build
-	cp -r plugins build
-	cd build && cmake . -DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_C_FLAGS:STRING="$(CFLAGS)" -DCMAKE_SKIP_RPATH:BOOL=YES
+	cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_SKIP_RPATH:BOOL=YES
 	touch $@
 
 build: build-stamp
