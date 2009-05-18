@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 7), pkg-config, cmake, kdelibs5-dev, libavc1394-dev
 
 Package: kdenlive
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdenlive-data (= ${source:Version}), inigo, libmlt-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdenlive-data (= ${source:Version}), inigo, libmlt-data (>= 0.3.8)
 Recommends: swh-plugins, dvgrab
 Description: a non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much

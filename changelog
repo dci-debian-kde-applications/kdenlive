@@ -5,8 +5,11 @@ kdenlive (0.7.3-3) unstable; urgency=low
   * Add pkg-config as build dependecy, so that the cmake script could determine
     the path to mlt and his profiles. This disables the annoying question on
     the initial kdenlive start.
+  * Add versioned dependency on libmlt-data (>= 0.3.8), because kdenlive crashs
+    with libmlt-data 0.3.6.
+    Closes: #529163
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 18 May 2009 00:11:58 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 18 May 2009 19:51:39 +0200
 
 kdenlive (0.7.3-2) unstable; urgency=low
 
