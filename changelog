@@ -9,7 +9,7 @@ kdenlive (0.7.3-3) unstable; urgency=low
     with libmlt-data 0.3.6.
     Closes: #529163
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 18 May 2009 19:51:39 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 18 May 2009 19:55:41 +0200
 
 kdenlive (0.7.3-2) unstable; urgency=low
 
