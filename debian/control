@@ -10,6 +10,7 @@ Package: kdenlive
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdenlive-data (= ${source:Version}), inigo, libmlt-data (>= 0.3.8)
 Recommends: swh-plugins, dvgrab
+Suggests: recordmydesktop, dvdauthor, genisoimage
 Description: a non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.

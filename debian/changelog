@@ -1,3 +1,9 @@
+kdenlive (0.7.3-4) UNRELEASED; urgency=low
+
+  * Suggest recordmydesktop, dvdauthor and genisoimage.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 25 May 2009 12:00:40 +0200
+
 kdenlive (0.7.3-3) unstable; urgency=low
 
   * Simplify debian/rules by not copying all necessary data to build first.
