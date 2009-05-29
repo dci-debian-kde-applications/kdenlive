@@ -3,8 +3,11 @@ kdenlive (0.7.3-4) UNRELEASED; urgency=low
   * Depend on ffmpeg.
   * Recommend frei0r-plugins, recordmydesktop, dvdauthor and genisoimage.
     They are very usefull for kdenlive.
+  * Add conflicts against kdenlive (<< 0.7.2.1) to kdenlive-data, because it
+    clashes with the old debian-multimedia.org version.
+    Closes: #529048
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 29 May 2009 21:27:22 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 29 May 2009 21:37:44 +0200
 
 kdenlive (0.7.3-3) unstable; urgency=low
 
