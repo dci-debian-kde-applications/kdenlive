@@ -1,4 +1,4 @@
-kdenlive (0.7.3-4) UNRELEASED; urgency=low
+kdenlive (0.7.3-4) unstable; urgency=low
 
   * Depend on ffmpeg.
   * Recommend frei0r-plugins, recordmydesktop, dvdauthor and genisoimage.
@@ -6,8 +6,9 @@ kdenlive (0.7.3-4) UNRELEASED; urgency=low
   * Add conflicts against kdenlive (<< 0.7.2.1) to kdenlive-data, because it
     clashes with the old debian-multimedia.org version.
     Closes: #529048
+  * Remove deprecated dh_desktop call.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 29 May 2009 21:37:44 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 29 May 2009 21:46:15 +0200
 
 kdenlive (0.7.3-3) unstable; urgency=low
 
