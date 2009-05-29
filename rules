@@ -66,7 +66,6 @@ binary-arch: build install
 	dh_installdocs -a
 	dh_install -a
 	dh_installmenu -a
-	dh_desktop -a
 	dh_strip -a --dbg-package=kdenlive-dbg
 	dh_compress -a
 	dh_fixperms -a
