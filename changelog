@@ -1,8 +1,9 @@
 kdenlive (0.7.3-4) UNRELEASED; urgency=low
 
   * Suggest recordmydesktop, dvdauthor and genisoimage.
+  * Depend on ffmpeg and recommend frei0r-plugins.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 25 May 2009 12:00:40 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 29 May 2009 21:27:22 +0200
 
 kdenlive (0.7.3-3) unstable; urgency=low
 
