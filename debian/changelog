@@ -1,8 +1,12 @@
 kdenlive (0.7.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Bump dependency on libmlt-data to >= 0.4.2, because kdenlive 0.7.4 does
+      not work properly with mlt 0.3.8.
+  * Change dependency on inigo to melt, it has been renamed with the new mlt
+    version.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 31 May 2009 14:28:36 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 01 Jun 2009 12:11:57 +0200
 
 kdenlive (0.7.3-4) unstable; urgency=low
 
