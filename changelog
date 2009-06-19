@@ -1,6 +1,7 @@
 kdenlive (0.7.4+svn3592-1) UNRELEASED; urgency=low
 
   * New subversion snapshot of revision 3592.
+    - This snapshot fixes a FTBFS on armel.
     - Drop kdenlive.{menu,xpm} and install both from upstream.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 19 Jun 2009 15:08:55 +0200
