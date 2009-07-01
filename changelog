@@ -1,6 +1,6 @@
-kdenlive (0.7.4+svn3613-1) UNRELEASED; urgency=low
+kdenlive (0.7.5-1) UNRELEASED; urgency=low
 
-  * New subversion snapshot of revision 3613.
+  * New upstream release.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 20 Jun 2009 22:00:22 +0200
 
