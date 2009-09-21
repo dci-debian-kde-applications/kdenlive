@@ -1,6 +1,7 @@
 kdenlive (0.7.5-2) UNRELEASED; urgency=low
 
-  * Bump Standards-Version to 3.8.3 (no changes needed).
+  * Bump Standards-Version to 3.8.3.
+    - Add debian/README.source.
   * Wrap build dependency lines.
   * Add patch 01-spanish_translations_fixes, which fixes many spanish
     translations. Thanks to Margarita Manterola <marga@debian.org>.
@@ -9,7 +10,7 @@ kdenlive (0.7.5-2) UNRELEASED; urgency=low
     genisoimage. Thanks to Didier Raboud <didier@raboud.com>.
     Closes: #547501
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2009 12:07:07 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2009 12:27:06 +0200
 
 kdenlive (0.7.5-1) unstable; urgency=low
 
