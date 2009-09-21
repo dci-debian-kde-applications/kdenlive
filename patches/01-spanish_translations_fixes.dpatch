@@ -1,0 +1,822 @@
+#!/bin/sh /usr/share/dpatch/dpatch-run
+## 01-spanish_translations_fixes.dpatch by Margarita Manterola <marga@debian.org>
+##
+## DP: Fixes many spanish translations.
+##     Closes: #538450
+
+@DPATCH@
+
+diff -Naur kdenlive-0.7.5.orig/po/es/kdenlive.po kdenlive-0.7.5/po/es/kdenlive.po
+--- kdenlive-0.7.5.orig/po/es/kdenlive.po	2009-09-21 11:57:50.000000000 +0200
++++ kdenlive-0.7.5/po/es/kdenlive.po	2009-09-21 12:01:16.000000000 +0200
+@@ -146,7 +146,7 @@
+ #: src/renderwidget.cpp:1233
+ #, kde-format
+ msgid "<strong>Rendering of %1 crashed</strong><br />"
+-msgstr "<strong>Renderización de %1 abortada</strong><br />"
++msgstr "<strong>Falló la generación de %1</strong><br />"
+ 
+ #: rc.cpp:719 rc.cpp:866 rc.cpp:950 rc.cpp:965 rc.cpp:2051 rc.cpp:2198
+ #: rc.cpp:2282 rc.cpp:2297
+@@ -163,7 +163,7 @@
+ "A profile with same name already exists in MLT's default profiles, please "
+ "choose another description for your custom profile."
+ msgstr ""
+-"Un perfil con el mismo nombre ya existe como perfil por defecto en MLT. "
++"Un perfil con el mismo nombre ya existe en los perfiles por omisión de MLT. "
+ "Por favor, escoge una nueva descripción para tu perfil personalizado."
+ 
+ #: src/kdenlivesettingsdialog.cpp:208 rc.cpp:1619 rc.cpp:2951
+@@ -529,7 +529,7 @@
+ 
+ #: src/mainwindow.cpp:1382
+ msgid "Auto-saved files exist. Do you want to recover them now?"
+-msgstr "Existen ficheros auto guardados. Quieres recuperarlos ahora ?"
++msgstr "Existen ficheros auto guardados. ¿Quiere recuperarlos ahora?"
+ 
+ #: src/kdenlivesettingsdialog.cpp:206 src/kdenlivesettingsdialog.cpp:223
+ msgid "Automatic"
+@@ -916,12 +916,12 @@
+ #, kde-format
+ msgid "Clip <b>%1</b><br>is invalid or missing, what do you want to do?"
+ msgstr ""
+-"El clip <b>%1</b><br>es inválido o no se encuentra. ¿ Qué deseas hacer ?"
++"El clip <b>%1</b><br>es inválido o no se encuentra. ¿Qué desea hacer?"
+ 
+ #: src/kdenlivedoc.cpp:820
+ #, kde-format
+ msgid "Clip <b>%1</b><br>is invalid, what do you want to do?"
+-msgstr "El clip <b>%1</b><br>es inválido. ¿ Qué deseas hacer ?"
++msgstr "El clip <b>%1</b><br>es inválido. ¿Qué desea hacer?"
+ 
+ #: src/projectlist.cpp:630
+ #, kde-format
+@@ -932,7 +932,7 @@
+ #, kde-format
+ msgid "Clip <b>%1</b><br>is missing or invalid. Remove it from project?"
+ msgstr ""
+-"El clip <b>%1</b><br>es inválido o no existe. ¿ Eliminarlo del proyecto ?"
++"El clip <b>%1</b><br>es inválido o no existe. ¿Quiere eliminarlo del proyecto?"
+ 
+ #: rc.cpp:1229 rc.cpp:2561
+ msgid "Clip Color"
+@@ -1014,7 +1014,7 @@
+ 
+ #: rc.cpp:30
+ msgid "Copy the left channel to the right"
+-msgstr "Copiar  el canal izquierdo al derecho"
++msgstr "Copiar el canal izquierdo al derecho"
+ 
+ #: src/main.cpp:41
+ msgid "Copyright (c) 2009 Development team"
+@@ -1052,7 +1052,7 @@
+ 
+ #: src/renderwidget.cpp:590
+ msgid "Create Render Script"
+-msgstr "Crear script de renderización"
++msgstr "Crear script de generación de vídeo"
+ 
+ #: rc.cpp:962 rc.cpp:2294
+ msgid "Create basic menu"
+@@ -1166,11 +1166,11 @@
+ #: src/dvdwizard.cpp:537
+ #, kde-format
+ msgid "DVD ISO image %1 successfully created."
+-msgstr "Imagen iso del DVD %1 generada correctamente"
++msgstr "La imagen iso %1 de DVD fue generada correctamente"
+ 
+ #: src/dvdwizard.cpp:525
+ msgid "DVD ISO is broken"
+-msgstr "Imagen iso del DVD no válida"
++msgstr "Imagen iso de DVD no válida"
+ 
+ #: src/mainwindow.cpp:841
+ msgid "DVD Wizard"
+@@ -1178,7 +1178,7 @@
+ 
+ #: rc.cpp:1760 rc.cpp:3092
+ msgid "DVD format"
+-msgstr "Formato del DVD"
++msgstr "Formato de DVD"
+ 
+ #: src/dvdwizard.cpp:466
+ msgid "DVD structure broken"
+@@ -1210,27 +1210,27 @@
+ 
+ #: rc.cpp:1247 rc.cpp:2579
+ msgid "Default Durations"
+-msgstr "Duraciones por defecto"
++msgstr "Duraciones predeterminadas"
+ 
+ #: rc.cpp:1265 rc.cpp:2597
+ msgid "Default Profile"
+-msgstr "Perfil por defecto"
++msgstr "Perfil predeterminado"
+ 
+ #: rc.cpp:695 rc.cpp:2027
+ msgid "Default apps"
+-msgstr "Aplicaciones por defecto"
++msgstr "Aplicaciones predeterminadas"
+ 
+ #: rc.cpp:1514 rc.cpp:2846
+ msgid "Default capture device"
+-msgstr "Dispositivo de captura por defecto"
++msgstr "Dispositivo de captura predeterminado"
+ 
+ #: rc.cpp:1166 rc.cpp:2498
+ msgid "Default folder for project files"
+-msgstr "Carpeta por defecto para ficheros de proyecto"
++msgstr "Carpeta predeterminada para ficheros de proyecto"
+ 
+ #: rc.cpp:683 rc.cpp:2015
+ msgid "Default folders"
+-msgstr "Carpetas por defecto"
++msgstr "Carpetas predeterminadas"
+ 
+ #: rc.cpp:353 rc.cpp:365 rc.cpp:385 rc.cpp:407
+ msgid "Delay"
+@@ -1310,7 +1310,7 @@
+ msgid ""
+ "Delete folder <b>%2</b>?<br>This will also remove the %1 clips in that folder"
+ msgstr ""
+-"¿ Eliminar carpeta <b>%2</b> ?<br> Esto borrará tambien %1 clips en esa "
++"¿Eliminar carpeta <b>%2</b>?<br>Esto borrará tambien %1 clips en esa "
+ "carpeta"
+ 
+ #: src/editguidecommand.cpp:35
+@@ -1426,8 +1426,8 @@
+ #, kde-format
+ msgid "Document project folder is invalid, setting it to the default one: %1"
+ msgstr ""
+-"La carpeta de documentos del proyecto es inválida. Cambiada a la carpeta por "
+-"defecto: %1"
++"La carpeta de documentos del proyecto es inválida. Se la cambió por la "
++"predeterminada: %1"
+ 
+ #: src/main.cpp:55
+ msgid "Document to open"
+@@ -1447,7 +1447,7 @@
+ 
+ #: src/mainwindow.cpp:806
+ msgid "Download New Render Profiles..."
+-msgstr "Descargar nuevos perfiles de renderización ..."
++msgstr "Descargar nuevos perfiles de generación ..."
+ 
+ #: rc.cpp:509 rc.cpp:1841
+ msgid "Drop B frames on H.264 clips"
+@@ -1541,7 +1541,7 @@
+ 
+ #: src/mainwindow.cpp:151
+ msgid "Effect List"
+-msgstr "Lista de Efectos"
++msgstr "Lista de efectos"
+ 
+ #: src/mainwindow.cpp:159
+ msgid "Effect Stack"
+@@ -1561,7 +1561,7 @@
+ 
+ #: rc.cpp:1571 rc.cpp:2903
+ msgid "Encoding params"
+-msgstr "Codificando parametros"
++msgstr "Parámetros de codificación"
+ 
+ #: src/renderwidget.cpp:241 rc.cpp:84 rc.cpp:118 rc.cpp:1718 rc.cpp:3050
+ msgid "End"
+@@ -1577,7 +1577,7 @@
+ 
+ #: src/documentchecker.cpp:161
+ msgid "Enter new location for file"
+-msgstr "Indicar la nueva ubicación del fichero"
++msgstr "Indicar nueva ubicación para el fichero"
+ 
+ #: src/kdenlivesettingsdialog.cpp:70
+ msgid "Environment"
+@@ -1599,11 +1599,11 @@
+ 
+ #: src/wizard.cpp:139
+ msgid "Error starting MLT's command line player (melt)"
+-msgstr "Error al arrancar el reproductor de linea de comandos de MLT (melt)"
++msgstr "Error al arrancar el reproductor de línea de comandos de MLT (melt)"
+ 
+ #: src/wizard.cpp:486
+ msgid "Error starting MLT's command line player (melt)."
+-msgstr "Error al arrancar el reproductor de linea de comandos de MLT (melt)"
++msgstr "Error al arrancar el reproductor de línea de comandos de MLT (melt)"
+ 
+ #: src/customtrackview.cpp:1484 src/customtrackview.cpp:2480
+ #: src/customtrackview.cpp:2542 src/customtrackview.cpp:3246
+@@ -1654,7 +1654,7 @@
+ 
+ #: rc.cpp:86
+ msgid "Fade in"
+-msgstr "Desvanecimiento"
++msgstr "Recuperación (Fade in)"
+ 
+ #: rc.cpp:88 rc.cpp:99
+ msgid "Fade in audio track"
+@@ -1662,7 +1662,7 @@
+ 
+ #: rc.cpp:97
+ msgid "Fade out"
+-msgstr "Recuperación"
++msgstr "Desvanecimiento (Fade out)"
+ 
+ #: rc.cpp:108
+ msgid "Fade to Black"
+@@ -1695,7 +1695,7 @@
+ "Do you want to overwrite it?"
+ msgstr ""
+ "El archivo %1 ya existe.\n"
+-"¿ Quieres sobreescribirlo ?"
++"¿Quiere sobreescribirlo?"
+ 
+ #: src/kdenlivedoc.cpp:211 src/kdenlivedoc.cpp:219
+ #, kde-format
+@@ -1712,7 +1712,7 @@
+ "Do you want to overwrite it?"
+ msgstr ""
+ "El archivo ya existe.\n"
+-"¿ Quieres sobreescribirlo ?"
++"¿Quiere sobreescribirlo?"
+ 
+ #: rc.cpp:848 rc.cpp:2180
+ msgid "File name"
+@@ -1724,7 +1724,7 @@
+ 
+ #: src/renderwidget.cpp:945
+ msgid "File rendering"
+-msgstr "Renderización del fichero"
++msgstr "Generación del fichero"
+ 
+ #: rc.cpp:1025 rc.cpp:2357
+ msgid "File size"
+@@ -1778,7 +1778,7 @@
+ #: src/dvdwizard.cpp:581
+ #, kde-format
+ msgid "Folder %1 already exists. Overwrite?"
+-msgstr "La carpeta %1 ya existe. ¿ Sobreescribirla ?"
++msgstr "La carpeta %1 ya existe. ¿Desea sobreescribirla?"
+ 
+ #: rc.cpp:1640 rc.cpp:2972
+ msgid "Follow mouse"
+@@ -1798,7 +1798,7 @@
+ 
+ #: rc.cpp:1130 rc.cpp:2462
+ msgid "Force pixel aspect ratio"
+-msgstr "Forzar la relación de aspecto del pixel"
++msgstr "Forzar la relación de aspecto de pixeles"
+ 
+ #: rc.cpp:1361 rc.cpp:1553 rc.cpp:1562 rc.cpp:2693 rc.cpp:2885 rc.cpp:2894
+ msgid "Format"
+@@ -1912,7 +1912,7 @@
+ 
+ #: rc.cpp:351 rc.cpp:363 rc.cpp:383
+ msgid "Gain Out"
+-msgstr "Perdida"
++msgstr "Pérdida"
+ 
+ #: rc.cpp:161
+ msgid "Gain as Percentage"
+@@ -1920,7 +1920,7 @@
+ 
+ #: rc.cpp:403
+ msgid "Gain out"
+-msgstr "Perdida"
++msgstr "Pérdida"
+ 
+ #: rc.cpp:163 rc.cpp:167
+ msgid "Gamma"
+@@ -1928,7 +1928,7 @@
+ 
+ #: src/kdenlivesettingsdialog.cpp:231
+ msgid "General graphics interface"
+-msgstr "Interfase gráfica general"
++msgstr "Interfaz gráfica general"
+ 
+ #: src/renderwidget.cpp:88
+ msgid "Generate Script"
+@@ -2089,7 +2089,7 @@
+ #: src/dvdwizard.cpp:583
+ #, kde-format
+ msgid "Image file %1 already exists. Overwrite?"
+-msgstr "El fichero de imagen %1 ya existe. ¿ Sobreescribirlo ?"
++msgstr "El fichero de imagen %1 ya existe. ¿Desea sobreescribirlo?"
+ 
+ #: rc.cpp:1007 rc.cpp:1700 rc.cpp:2339 rc.cpp:3032
+ msgid "Image preview"
+@@ -2163,21 +2163,21 @@
+ 
+ #: src/customtrackview.cpp:2796 src/projectlist.cpp:632
+ msgid "Invalid clip"
+-msgstr "Clip invalido"
++msgstr "Clip inválido"
+ 
+ #: src/trackview.cpp:182
+ #, kde-format
+ msgid "Invalid clip producer %1\n"
+-msgstr "Productor de clip %1 invalido\n"
++msgstr "Productor de clip %1 inválido\n"
+ 
+ #: src/trackview.cpp:440
+ #, kde-format
+ msgid "Invalid clip removed from track %1 at %2\n"
+-msgstr "Clip invalido eliminado de la pista %1 en %2\n"
++msgstr "Clip inválido eliminado de la pista %1 en %2\n"
+ 
+ #: src/customtrackview.cpp:1586 src/customtrackview.cpp:3889
+ msgid "Invalid transition"
+-msgstr "Transición invalida"
++msgstr "Transición inválida"
+ 
+ #: rc.cpp:44 rc.cpp:173 rc.cpp:269
+ msgid "Invert"
+@@ -2229,7 +2229,7 @@
+ 
+ #: rc.cpp:155
+ msgid "Kernel size"
+-msgstr "Tamaño del nucleo"
++msgstr "Tamaño del núcleo"
+ 
+ #: rc.cpp:221
+ msgid "LADSPA change pitch audio effect"
+@@ -2285,7 +2285,7 @@
+ 
+ #: src/titlewidget.cpp:297
+ msgid "Load Image"
+-msgstr "Cargar imanen"
++msgstr "Cargar imagen"
+ 
+ #: src/titlewidget.cpp:749
+ msgid "Load Title"
+@@ -2413,7 +2413,7 @@
+ 
+ #: src/dvdwizard.cpp:309
+ msgid "Menu job timed out"
+-msgstr "Tiempo de espera agotado en el trabajo de menu"
++msgstr "Tiempo de espera agotado en el trabajo de menú"
+ 
+ #: rc.cpp:1118 rc.cpp:2450
+ msgid "Metadata"
+@@ -2437,7 +2437,7 @@
+ 
+ #: src/geometryval.cpp:71 src/monitor.cpp:94
+ msgid "Misc..."
+-msgstr "Miscelanea ..."
++msgstr "Miscelánea ..."
+ 
+ #: rc.cpp:1724 rc.cpp:3056
+ msgid "Missing clips"
+@@ -2473,7 +2473,7 @@
+ 
+ #: rc.cpp:28
+ msgid "Mono to stereo"
+-msgstr "Mono a estereo"
++msgstr "Mono a estéreo"
+ 
+ #: src/customtrackview.cpp:2263 src/moveclipcommand.cpp:33
+ msgid "Move clip"
+@@ -2660,7 +2660,7 @@
+ 
+ #: src/main.cpp:46
+ msgid "Original KDE 3 version author (not active anymore)"
+-msgstr "Autor de la versión original en KDE 3 (no activa)"
++msgstr "Autor de la versión original en KDE 3 (no activo)"
+ 
+ #: rc.cpp:114
+ msgid "Out"
+@@ -2676,7 +2676,7 @@
+ 
+ #: src/renderwidget.cpp:575
+ msgid "Output file already exists. Do you want to overwrite it?"
+-msgstr "El fichero de salida ya existe. ¿ Quieres sobreescribirlo ?"
++msgstr "El fichero de salida ya existe. ¿Desea sobreescribirlo?"
+ 
+ #: rc.cpp:944 rc.cpp:2276
+ msgid "P"
+@@ -2736,11 +2736,11 @@
+ 
+ #: rc.cpp:749 rc.cpp:1040 rc.cpp:2081 rc.cpp:2372
+ msgid "Pixel aspect ratio"
+-msgstr "Relación de aspecto del pixel"
++msgstr "Relación de aspecto de píxeles"
+ 
+ #: src/wizard.cpp:427 rc.cpp:1484 rc.cpp:2816
+ msgid "Pixel aspect ratio:"
+-msgstr "Relación de aspecto del pixel:"
++msgstr "Relación de aspecto de píxeles:"
+ 
+ #: rc.cpp:145
+ msgid "Plasma"
+@@ -2796,22 +2796,22 @@
+ msgid ""
+ "Please set a default application to open audio files in the Settings dialog"
+ msgstr ""
+-"Por favor, indica la aplicación por defecto para abrir ficheros de audio en "
+-"el diálogo de parámetros"
++"Por favor, indique la aplicación predeterminada para abrir ficheros de "
++"audio en el diálogo de configuración."
+ 
+ #: src/projectlist.cpp:196
+ msgid "Please set a default application to open images in the Settings dialog"
+ msgstr ""
+-"Por favor, indica la aplicación por defecto para abrir imágenes en el "
+-"diálogo de parámetros"
++"Por favor, indique la aplicación predeterminada para abrir imágenes en el "
++"diálogo de configuración."
+ 
+ #: rc.cpp:1682 rc.cpp:3014
+ msgid "Please set your default video profile"
+-msgstr "Por favor, indica tu perfil de vídeo por defecto"
++msgstr "Por favor, indique su perfil de vídeo predeterminado"
+ 
+ #: src/wizard.cpp:189
+ msgid "Please upgrade to the latest MLT version"
+-msgstr "Por favor, actualizate a la última versión de MLT"
++msgstr "Por favor, actualice el sistema a la última versión de MLT"
+ 
+ #: src/recmonitor.cpp:185
+ #, kde-format
+@@ -2922,7 +2922,7 @@
+ 
+ #: src/mainwindow.cpp:814 rc.cpp:1460 rc.cpp:2792
+ msgid "Project Settings"
+-msgstr "Parametros del proyecto"
++msgstr "Parámetros del proyecto"
+ 
+ #: src/mainwindow.cpp:145
+ msgid "Project Tree"
+@@ -3006,7 +3006,7 @@
+ "Recordmydesktop utility not found,\n"
+ " please install it for screen grabs"
+ msgstr ""
+-"Recordmydesktop no se ha encontrado.\n"
++"La herramienta Recordmydesktop no se ha encontrado.\n"
+ "Por favor, instalala para realizar capturas de pantalla."
+ 
+ #: src/mainwindow.cpp:1384
+@@ -3076,66 +3076,66 @@
+ 
+ #: src/mainwindow.cpp:818 src/renderwidget.cpp:226
+ msgid "Render"
+-msgstr "Renderizar"
++msgstr "Generar vídeo"
+ 
+ #: rc.cpp:1349 rc.cpp:2681
+ msgid "Render Project"
+-msgstr "Renderizar proyecto"
++msgstr "Generar vídeo del proyecto"
+ 
+ #: src/renderwidget.cpp:86
+ msgid "Render to File"
+-msgstr "Renderizar a fichero"
++msgstr "Generar al fichero"
+ 
+ #: src/renderwidget.cpp:62
+ msgid "Rendering"
+-msgstr "Renderizando"
++msgstr "Generando"
+ 
+ #: renderer/renderjob.cpp:196
+ #, kde-format
+ msgid "Rendering %1"
+-msgstr "Renderizando %1"
++msgstr "Generando %1"
+ 
+ #: src/mainwindow.cpp:1645
+ #, kde-format
+ msgid "Rendering <i>%1</i> started"
+-msgstr "Iniciada la renderización de <i>%1</i> "
++msgstr "Se inició la generación de <i>%1</i> "
+ 
+ #: src/renderwidget.cpp:1239
+ msgid "Rendering aborted"
+-msgstr "Renderización abortada"
++msgstr "Se abortó la generación"
+ 
+ #: src/renderwidget.cpp:1230
+ msgid "Rendering crashed"
+-msgstr "Renderización erronea"
++msgstr "Falló la generación"
+ 
+ #: src/renderwidget.cpp:1219
+ #, kde-format
+ msgid "Rendering finished in %1"
+-msgstr "Renderización finalizada en %1"
++msgstr "Generación finalizada en %1"
+ 
+ #: src/dvdwizard.cpp:225
+ msgid "Rendering job timed out"
+-msgstr "Tiempo de espera agotado en el trabajo de renderización "
++msgstr "Tiempo de espera agotado en el trabajo de generación "
+ 
+ #: renderer/renderjob.cpp:258
+ #, kde-format
+ msgid "Rendering of %1 aborted, resulting video will probably be corrupted."
+ msgstr ""
+-"Renderización de %1 abortada. El vídeo resultante probablemente esté dañado."
++"Generación de %1 abortada. El vídeo resultante probablemente esté dañado."
+ 
+ #: renderer/renderjob.cpp:280
+ #, kde-format
+ msgid "Rendering of %1 finished in %2"
+-msgstr "Renderizado de %1 finalizo en %2"
++msgstr "La generación de %1 finalizo en %2"
+ 
+ #: src/main.cpp:44
+ msgid "Rendering profiles customisation"
+-msgstr "Parametrización de perfiles de renderizado"
++msgstr "Parametrización de perfiles de generación de vídeo"
+ 
+ #: src/trackview.cpp:478
+ #, kde-format
+ msgid "Replaced wrong clip producer %1 with %2"
+-msgstr "Productor de clip erroneo %1 reemplazado por %2"
++msgstr "Productor de clip erróneo %1 reemplazado por %2"
+ 
+ #: src/wizard.cpp:318
+ msgid "Required for creation of DVD"
+@@ -3151,7 +3151,7 @@
+ 
+ #: src/wizard.cpp:130
+ msgid "Required for rendering (part of MLT package)"
+-msgstr "Requerido para renderizar (parte del paquete MLT)"
++msgstr "Requerido para generar vídeo (parte del paquete MLT)"
+ 
+ #: src/wizard.cpp:306
+ msgid "Required for screen capture"
+@@ -3223,7 +3223,7 @@
+ 
+ #: src/mainwindow.cpp:864
+ msgid "Rewind 1 Frame"
+-msgstr "Retroceder 1 fotograma"
++msgstr "Rebobinar 1 fotograma"
+ 
+ #: src/mainwindow.cpp:869
+ msgid "Rewind 1 Second"
+@@ -3231,7 +3231,7 @@
+ 
+ #: src/monitor.cpp:75
+ msgid "Rewind 1 frame"
+-msgstr "Retroceder 1 fotograma"
++msgstr "Rebobinar 1 fotograma"
+ 
+ #: src/geometryval.cpp:90 rc.cpp:72
+ msgid "Right"
+@@ -3251,15 +3251,15 @@
+ 
+ #: rc.cpp:301
+ msgid "Rotate Y"
+-msgstr " Girar Y"
++msgstr "Girar Y"
+ 
+ #: rc.cpp:303
+ msgid "Rotate Z"
+-msgstr " Girar Z"
++msgstr "Girar Z"
+ 
+ #: rc.cpp:295
+ msgid "Rotate and Shear"
+-msgstr "Girar i cizallar"
++msgstr "Girar y cizallar"
+ 
+ #: rc.cpp:297
+ msgid "Rotate clip in any 3 directions"
+@@ -3303,7 +3303,7 @@
+ 
+ #: src/mainwindow.cpp:389 src/mainwindow.cpp:1257
+ msgid "Save changes to document?"
+-msgstr "¿ Guardar capítulos a documento ?"
++msgstr "¿Desea guardar los cambios al proyecto?"
+ 
+ #: src/mainwindow.cpp:2511
+ msgid "Save clip zone as:"
+@@ -3347,7 +3347,7 @@
+ 
+ #: src/renderwidget.cpp:595
+ msgid "Script file already exists. Do you want to overwrite it?"
+-msgstr "El archivo de script ya existe. ¿ Quieres sobreescribirlo ?"
++msgstr "El archivo de script ya existe. ¿Desea sobreescribirlo?"
+ 
+ #: src/renderwidget.cpp:590
+ #, kde-format
+@@ -3360,7 +3360,7 @@
+ 
+ #: src/kdenlivedoc.cpp:820
+ msgid "Search automatically"
+-msgstr "Buscar automaticamente"
++msgstr "Buscar automáticamente"
+ 
+ #: src/kdenlivedoc.cpp:823 src/kdenlivedoc.cpp:831
+ msgid "Search manually"
+@@ -3387,7 +3387,7 @@
+ "Select a region using the mouse. To take the snapshot, press the Enter key. "
+ "Press Esc to quit."
+ msgstr ""
+-"Selecciona una región usando el ratón. Para captar una instantanea, pulsa la "
++"Selecciona una región usando el ratón. Para captar una instantánea, pulsa la "
+ "tecla Intro. Pulsa Esc para salir."
+ 
+ #: src/customtrackview.cpp:2754
+@@ -3400,15 +3400,15 @@
+ 
+ #: src/kdenlivesettingsdialog.cpp:332
+ msgid "Select default audio editor"
+-msgstr "Selecciona el editor de audio por defecto"
++msgstr "Selecciona el editor de audio predeterminado"
+ 
+ #: src/kdenlivesettingsdialog.cpp:343
+ msgid "Select default image editor"
+-msgstr "Selecciona el editor de imágenes por defecto"
++msgstr "Selecciona el editor de imágenes predeterminado"
+ 
+ #: src/kdenlivesettingsdialog.cpp:321
+ msgid "Select default video player"
+-msgstr "Selecciona el reproductor de vídeo por defecto"
++msgstr "Selecciona el reproductor de vídeo predeterminado"
+ 
+ #: rc.cpp:1409 rc.cpp:2741
+ msgid "Selected zone"
+@@ -3436,7 +3436,7 @@
+ 
+ #: src/monitor.cpp:180
+ msgid "Set current image as thumbnail"
+-msgstr "Fijar imagen actual como miniatura"
++msgstr "Utilizar imagen actual como miniatura"
+ 
+ #: src/main.cpp:54
+ msgid "Set the path for MLT environnement"
+@@ -3468,7 +3468,7 @@
+ 
+ #: src/mainwindow.cpp:1033
+ msgid "Show Timeline"
+-msgstr "Mostrar la linea de tiempo"
++msgstr "Mostrar la línea de tiempo"
+ 
+ #: src/mainwindow.cpp:722 rc.cpp:1172 rc.cpp:2504
+ msgid "Show audio thumbnails"
+@@ -3480,7 +3480,7 @@
+ 
+ #: src/complexparameter.cpp:40
+ msgid "Show keyframes in timeline"
+-msgstr "Mostrar fotogramas maestros en linea de tiempo"
++msgstr "Mostrar fotogramas maestros en línea de tiempo"
+ 
+ #: src/mainwindow.cpp:728
+ msgid "Show markers comments"
+@@ -3655,7 +3655,7 @@
+ 
+ #: src/renderwidget.cpp:85
+ msgid "Start Rendering"
+-msgstr "Iniciar renderización"
++msgstr "Iniciar generación de vídeo"
+ 
+ #: rc.cpp:1451 rc.cpp:2783
+ msgid "Start Script"
+@@ -3719,7 +3719,7 @@
+ 
+ #: src/profilesdialog.cpp:114
+ msgid "The custom profile was modified, do you want to save it?"
+-msgstr "El perfil personalizado ha sido modificado. ¿ Quieres guardarlo ?"
++msgstr "El perfil personalizado ha sido modificado. ¿Desea guardarlo?"
+ 
+ #: src/renderwidget.cpp:662 src/renderwidget.cpp:1347
+ #, kde-format
+@@ -3727,8 +3727,8 @@
+ "There is already a job writing file:<br><b>%1</b><br>Abort the job if you "
+ "want to overwrite it..."
+ msgstr ""
+-"Ya existe un trabajo <br><b>%1</b><br> escribiendo a fichero. Cancelalo si "
+-"quieres sobreescribirlo"
++"Ya existe un trabajo escribiendo al fichero: <br><b>%1</b><br>Cancele "
++"el trabajo si quiere sobreescribirlo."
+ 
+ #: src/renderer.cpp:1287
+ msgid "There is no clip, cannot extract frame."
+@@ -3742,14 +3742,14 @@
+ msgstr ""
+ "Ésta es la primera vez que ejecutas Kdenlive. Este asistente te ayudará a "
+ "ajustar algunos parámetros básicos. Estarás listo para editar tu primera "
+-"película en breves segundos ..."
++"película en breves segundos..."
+ 
+ #: src/renderwidget.cpp:322 src/renderwidget.cpp:429
+ msgid ""
+ "This profile name already exists. Change the name if you don't want to "
+ "overwrite it."
+ msgstr ""
+-"El nombre del perfil ya existe. Cambia el nombre si no quieres "
++"Este nombre del perfil ya existe. Cambie el nombre si no quiere "
+ "sobreescribirlo."
+ 
+ #: src/documentconvert.cpp:51
+@@ -3846,7 +3846,7 @@
+ 
+ #: src/cliptranscode.cpp:119
+ msgid "Transcoding FAILED!"
+-msgstr "¡ Transcodificación fallida !"
++msgstr "¡Falló la transcodificación!"
+ 
+ #: src/cliptranscode.cpp:115
+ msgid "Transcoding finished."
+@@ -3866,7 +3866,7 @@
+ 
+ #: rc.cpp:64
+ msgid "Trim the edges of a clip"
+-msgstr "Recortar los limites del clip"
++msgstr "Recortar los límites del clip"
+ 
+ #: rc.cpp:323
+ msgid "Turn clip colors to sepia"
+@@ -3887,7 +3887,7 @@
+ 
+ #: src/mainwindow.cpp:198
+ msgid "Undo History"
+-msgstr "Historia de deshacer"
++msgstr "Historial de deshacer"
+ 
+ #: src/mainwindow.cpp:940
+ msgid "Ungroup Clips"
+@@ -3930,15 +3930,16 @@
+ 
+ #: rc.cpp:1304 rc.cpp:2636
+ msgid "Use KDE job tracking for render jobs"
+-msgstr "Usa el seguimiento de trabajos de KDE para renderizar trabajos"
++msgstr "Usa el seguimiento de trabajos de KDE para los trabajos de "
++"generación de video"
+ 
+ #: rc.cpp:764 rc.cpp:2096
+ msgid "Use as default"
+-msgstr "Usar por defecto"
++msgstr "Usar como predeterminado"
+ 
+ #: rc.cpp:1736 rc.cpp:3068
+ msgid "Use placeholders for missing clips"
+-msgstr "Use marcadores de posición para los clips perdidos"
++msgstr "Usar marcadores de posición para los clips perdidos"
+ 
+ #: rc.cpp:439
+ msgid "Use transparency"
+@@ -4000,7 +4001,7 @@
+ 
+ #: src/wizard.cpp:63
+ msgid "Video Standard"
+-msgstr "Vídeo estándar"
++msgstr "Estándar de vídeo"
+ 
+ #: src/documentchecker.cpp:65 src/documentchecker.cpp:83
+ #: src/projectitem.cpp:198
+@@ -4073,8 +4074,8 @@
+ "Warning: changes to the drivers and devices can make Kdenlive unstable. "
+ "Change only if you know what you do."
+ msgstr ""
+-"Atención: cambios en los controladores o dispositivos pueden hacer Kdenlive "
+-"inestable. Cambialos solo si sabes lo que haces."
++"Atención: cambios en los controladores o dispositivos pueden hacer "
++"inestable a Kdenlive. Cámbielos sólo si sabe lo que hace."
+ 
+ #: rc.cpp:447
+ msgid "Wave"
+@@ -4142,21 +4143,21 @@
+ "You have changed the project folder. Do you want to copy the cached data "
+ "from %1 to the new folder %2?"
+ msgstr ""
+-"Has cambiado la carpeta del proyecto. ¿ Quieres copiar los datos guardados "
+-"de %1 a la nueva carpeta %2 ?"
++"Ha cambiado la carpeta del proyecto. ¿Desea copiar los datos guardados "
++"de %1 a la nueva carpeta %2?"
+ 
+ #: src/customtrackview.cpp:1950
+ #, kde-format
+ msgid "You must be in an empty space to remove space (time: %1, track: %2)"
+ msgstr ""
+-"Debes situarte en un espacio vacio para eliminar espacios (tiempo: %1, "
++"Debe situarse en un espacio vacío para eliminar espacios (tiempo: %1, "
+ "pista: %2)"
+ 
+ #: src/customtrackview.cpp:1956
+ #, kde-format
+ msgid "You must be in an empty space to remove space (time=%1, track:%2)"
+ msgstr ""
+-"Debes situarte de un espacio vacio para eliminar un espacio (tiempo= %1, "
++"Debe situarse en un espacio vacío para eliminar espacios (tiempo= %1, "
+ "pista: %2)"
+ 
+ #: src/customtrackview.cpp:3900
+@@ -4224,7 +4225,7 @@
+ " please install it for firewire capture"
+ msgstr ""
+ "No se ha encontrado la utilidad dvgrab.\n"
+-"Por favor, instalala para realizar capturas desde firewire"
++"Por favor, instálela para realizar capturas desde firewire"
+ 
+ #: src/kdenlivesettingsdialog.cpp:164
+ #, kde-format
+@@ -4279,7 +4280,7 @@
+ 
+ #: rc.cpp:1220 rc.cpp:2552
+ msgid "save"
+-msgstr "Guardar"
++msgstr "guardar"
+ 
+ #: src/renderwidget.cpp:585 src/renderwidget.cpp:588
+ msgid "script"
