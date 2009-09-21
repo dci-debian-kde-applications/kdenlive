@@ -1,4 +1,4 @@
-kdenlive (0.7.5-2) UNRELEASED; urgency=low
+kdenlive (0.7.5-2) unstable; urgency=low
 
   * Bump Standards-Version to 3.8.3.
     - Add debian/README.source.
