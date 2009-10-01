@@ -45,6 +45,7 @@ install: build
 	dh_prep
 	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/tmp
 	cp $(CURDIR)/data/kdenlive.menu $(CURDIR)/debian/
+	dh_install --list-missing
 
 binary-indep: build install
 	dh_testdir -i
@@ -52,7 +53,6 @@ binary-indep: build install
 	dh_installchangelogs -i
 	dh_installdocs -i
 	dh_installdirs -i
-	dh_install -i
 	dh_link -i
 	dh_compress -i
 	dh_fixperms -i
@@ -66,7 +66,6 @@ binary-arch: build install
 	dh_testroot -a
 	dh_installchangelogs -a
 	dh_installdocs -a
-	dh_install -a --list-missing
 	dh_installmenu -a
 	dh_strip -a --dbg-package=kdenlive-dbg
 	dh_compress -a
