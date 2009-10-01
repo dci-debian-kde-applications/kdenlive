@@ -16,12 +16,12 @@ Description: a non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
  It main features are:
-  Guides and marker for organizing timelines
-  Copy and paste support for clips, effects and transitions
-  Real time changes
-  Firewire and Video4Linux capture
-  Screen grabbing
-  Exporting to any by FFMPEG supported format
+  * Guides and marker for organizing timelines
+  * Copy and paste support for clips, effects and transitions
+  * Real time changes
+  * Firewire and Video4Linux capture
+  * Screen grabbing
+  * Exporting to any by FFMPEG supported format
 
 Package: kdenlive-data
 Architecture: all
@@ -32,12 +32,12 @@ Description: a non-linear video editor (data files)
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
  It main features are:
-  Guides and marker for organizing timelines
-  Copy and paste support for clips, effects and transitions
-  Real time changes
-  Firewire and Video4Linux capture
-  Screen grabbing
-  Exporting to any by FFMPEG supported format
+  * Guides and marker for organizing timelines
+  * Copy and paste support for clips, effects and transitions
+  * Real time changes
+  * Firewire and Video4Linux capture
+  * Screen grabbing
+  * Exporting to any by FFMPEG supported format
  .
  This packages contains the data files for kdenlive.
 
@@ -50,11 +50,11 @@ Description: a non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
  It main features are:
-  Guides and marker for organizing timelines
-  Copy and paste support for clips, effects and transitions
-  Real time changes
-  Firewire and Video4Linux capture
-  Screen grabbing
-  Exporting to any by FFMPEG supported format
+  * Guides and marker for organizing timelines
+  * Copy and paste support for clips, effects and transitions
+  * Real time changes
+  * Firewire and Video4Linux capture
+  * Screen grabbing
+  * Exporting to any by FFMPEG supported format
  .
  This package contains the debugging symbols for kdenlive.
