@@ -1,3 +1,11 @@
+kdenlive (0.7.5+svn3969-1) UNRELEASED; urgency=low
+
+  * New upstream svn snapshot.
+    - Drop all merged patches.
+    - Drop dpatch.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 01 Oct 2009 11:05:06 +0200
+
 kdenlive (0.7.5-2) unstable; urgency=low
 
   * Bump Standards-Version to 3.8.3.
