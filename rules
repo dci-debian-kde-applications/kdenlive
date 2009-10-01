@@ -66,7 +66,7 @@ binary-arch: build install
 	dh_testroot -a
 	dh_installchangelogs -a
 	dh_installdocs -a
-	dh_install -a
+	dh_install -a --list-missing
 	dh_installmenu -a
 	dh_strip -a --dbg-package=kdenlive-dbg
 	dh_compress -a
