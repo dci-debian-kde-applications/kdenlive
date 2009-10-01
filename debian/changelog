@@ -6,8 +6,9 @@ kdenlive (0.7.5+svn3969-1) UNRELEASED; urgency=low
   * Apply patch from Martin Mazur <debian@teclabs.eu> to increase readibility
     of the long description. Thanks.
     Closes: #548435
+  * Use dh_install with --list-missing.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 01 Oct 2009 11:09:50 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 01 Oct 2009 11:31:36 +0200
 
 kdenlive (0.7.5-2) unstable; urgency=low
 
