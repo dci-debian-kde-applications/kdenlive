@@ -1,4 +1,4 @@
-kdenlive (0.7.5+svn3995-1) UNRELEASED; urgency=low
+kdenlive (0.7.5+svn3995-1) unstable; urgency=low
 
   * New upstream svn snapshot.
   * Now it should build on all architectures against the right mlt version.
