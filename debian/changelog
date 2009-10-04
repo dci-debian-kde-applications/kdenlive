@@ -1,10 +1,10 @@
-kdenlive (0.7.5+svn3981-1) UNRELEASED; urgency=low
+kdenlive (0.7.5+svn3995-1) UNRELEASED; urgency=low
 
   * New upstream svn snapshot.
   * Now it should build on all architectures against the right mlt version.
     Closes: #549340
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 02 Oct 2009 18:12:52 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 04 Oct 2009 10:12:58 +0200
 
 kdenlive (0.7.5+svn3969-1) unstable; urgency=low
 
