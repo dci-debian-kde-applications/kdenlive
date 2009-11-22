@@ -1,3 +1,10 @@
+kdenlive (0.7.6-2) UNRELEASED; urgency=low
+
+  * Fix spelling error in the long description of kdenlive-data.
+    Closes: #557488
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 22 Nov 2009 17:25:34 +0100
+
 kdenlive (0.7.6-1) unstable; urgency=low
 
   * New upstream release.
