@@ -39,7 +39,7 @@ Description: a non-linear video editor (data files)
   * Screen grabbing
   * Exporting to any by FFMPEG supported format
  .
- This packages contains the data files for kdenlive.
+ This package contains the data files for kdenlive.
 
 Package: kdenlive-dbg
 Section: debug
