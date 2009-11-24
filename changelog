@@ -1,4 +1,4 @@
-kdenlive (0.7.6+svn4144-1) UNRELEASED; urgency=low
+kdenlive (0.7.6+svn4144-1) unstable; urgency=low
 
   * New upstream svn snapshot.
   * Fix spelling error in the long description of kdenlive-data.
@@ -6,7 +6,7 @@ kdenlive (0.7.6+svn4144-1) UNRELEASED; urgency=low
   * Remove obsolete debian/README.source.
   * Convert package to the 3.0 (quilt) format.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 24 Nov 2009 20:18:59 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 24 Nov 2009 20:19:31 +0100
 
 kdenlive (0.7.6-1) unstable; urgency=low
 
