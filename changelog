@@ -1,9 +1,10 @@
-kdenlive (0.7.6-2) UNRELEASED; urgency=low
+kdenlive (0.7.6+svn4144-1) UNRELEASED; urgency=low
 
+  * New upstream svn snapshot.
   * Fix spelling error in the long description of kdenlive-data.
     Closes: #557488
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 22 Nov 2009 17:25:34 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 24 Nov 2009 20:15:32 +0100
 
 kdenlive (0.7.6-1) unstable; urgency=low
 
