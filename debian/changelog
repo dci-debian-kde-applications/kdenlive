@@ -1,3 +1,10 @@
+kdenlive (0.7.6+svn4201-1) unstable; urgency=low
+
+  * New upstream svn snapshot.
+    - This should fix a FTBFS on armel.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 04 Jan 2010 19:32:41 +0100
+
 kdenlive (0.7.6+svn4194-1) unstable; urgency=low
 
   * New upstream svn snapshot.
