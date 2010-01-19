@@ -1,3 +1,9 @@
+kdenlive (0.7.6+svn4238-1) unstable; urgency=low
+
+  * New upstream svn snapshot.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 19 Jan 2010 20:54:26 +0100
+
 kdenlive (0.7.6+svn4223-1) unstable; urgency=low
 
   * New upstream svn snapshot.
