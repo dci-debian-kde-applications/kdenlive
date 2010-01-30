@@ -1,3 +1,9 @@
+kdenlive (0.7.6+svn4246-2) UNRELEASED; urgency=low
+
+  * Bump Standards-Version to 3.8.4 (no changes needed).
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 30 Jan 2010 12:25:07 +0100
+
 kdenlive (0.7.6+svn4246-1) unstable; urgency=low
 
   * New upstream svn snapshot.
