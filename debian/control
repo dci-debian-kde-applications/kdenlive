@@ -6,7 +6,7 @@ Homepage: http://www.kdenlive.org/
 Standards-Version: 3.8.4
 Build-Depends: debhelper (>= 7), pkg-config, cmake, kdelibs5-dev, libavc1394-dev,
  libmlt-dev, libmlt++-dev, libiec61883-dev, libavcodec-dev, libavformat-dev,
- libavdevice-dev, libavutil-dev
+ libavdevice-dev, libavutil-dev, libqt4-dev (>= 4:4.6)
 
 Package: kdenlive
 Architecture: any

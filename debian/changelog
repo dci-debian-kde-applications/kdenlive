@@ -1,3 +1,10 @@
+kdenlive (0.7.7.1-2) unstable; urgency=low
+
+  * Build against Qt 4.6.
+    Closes: #574055
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 15 Apr 2010 19:23:56 +0200
+
 kdenlive (0.7.7.1-1) unstable; urgency=low
 
   * New upstream release.
