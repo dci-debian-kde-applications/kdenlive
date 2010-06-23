@@ -1,3 +1,12 @@
+kdenlive (0.7.7.1+svn4541-1) unstable; urgency=low
+
+  * New upstream svn snapshot.
+    - Fixes incorrect recordmydesktop command line options.
+      Closes: #584523
+  * Remove not needed build dependencies libiec61883-dev and libavc1394-dev.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 23 Jun 2010 21:42:38 +0200
+
 kdenlive (0.7.7.1-2) unstable; urgency=low
 
   * Build against Qt 4.6.
