@@ -2,8 +2,10 @@ kdenlive (0.7.7.1+svn4571-1) UNRELEASED; urgency=low
 
   * New upstream svn snapshot.
     - Fixes FTBFS on armel.
+  * Bump Standards-Version to 3.9.0.
+    - Replace Conflicts with Breaks.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 08 Jul 2010 20:03:12 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 08 Jul 2010 20:04:27 +0200
 
 kdenlive (0.7.7.1+svn4541-1) unstable; urgency=low
 
