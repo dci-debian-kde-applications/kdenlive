@@ -3,7 +3,7 @@ Section: video
 Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
-Standards-Version: 3.8.4
+Standards-Version: 3.9.0
 Build-Depends: debhelper (>= 7), pkg-config, cmake, kdelibs5-dev,
  libmlt-dev, libmlt++-dev, libavcodec-dev, libavformat-dev,
  libavdevice-dev, libavutil-dev, libqt4-dev (>= 4:4.6)
@@ -27,7 +27,7 @@ Package: kdenlive-data
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: kdenlive
-Conflicts: kdenlive (<= 0.7.2.1)
+Breaks: kdenlive (<= 0.7.2.1)
 Description: a non-linear video editor (data files)
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
