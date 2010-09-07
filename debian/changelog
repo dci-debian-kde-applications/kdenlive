@@ -1,3 +1,11 @@
+kdenlive (0.7.7.1+svn4858-1) UNRELEASED; urgency=low
+
+  * New upstream svn snapshot.
+    - Croatian translation is working now.
+      Closes: #592755
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 07 Sep 2010 20:35:16 +0200
+
 kdenlive (0.7.7.1+svn4571-1) unstable; urgency=low
 
   * New upstream svn snapshot.
