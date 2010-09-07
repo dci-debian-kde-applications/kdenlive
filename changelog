@@ -1,11 +1,12 @@
-kdenlive (0.7.7.1+svn4858-1) UNRELEASED; urgency=low
+kdenlive (0.7.7.1+svn4858-1) unstable; urgency=low
 
   * New upstream svn snapshot.
     - Croatian translation is working now.
       Closes: #592755
+    - Add new build dependency shared-desktop-ontologies and libx11-dev.
   * Bump Standards-Version to 3.9.1 (no changes needed).
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 07 Sep 2010 20:37:02 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 07 Sep 2010 20:37:34 +0200
 
 kdenlive (0.7.7.1+svn4571-1) unstable; urgency=low
 
