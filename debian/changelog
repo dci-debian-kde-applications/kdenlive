@@ -2,6 +2,7 @@ kdenlive (0.7.8-2) UNRELEASED; urgency=low
 
   * Wrap dependencies.
   * Remove patch 01-lower-down-req-mlt-version, since mlt 0.6.2 is in unstable.
+    Closes: #606619
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 07 Feb 2011 18:37:01 +0100
 
