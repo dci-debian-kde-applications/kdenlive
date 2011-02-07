@@ -1,3 +1,9 @@
+kdenlive (0.7.8-2) UNRELEASED; urgency=low
+
+  * Wrap dependencies.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 07 Feb 2011 18:36:12 +0100
+
 kdenlive (0.7.8-1) unstable; urgency=low
 
   * New upstream release.
