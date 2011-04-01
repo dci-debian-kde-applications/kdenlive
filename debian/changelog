@@ -3,10 +3,11 @@ kdenlive (0.7.8+svn5529-1) UNRELEASED; urgency=low
   * New upstream svn snapshot.
     - Importing RAW DV files should be fixed.
       Closes: #615606
+    - Add new build dependency libqt4-opengl-dev.
   * Rebuild against mlt 0.7.0.
     Closes: #620340
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 01 Apr 2011 20:48:52 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 01 Apr 2011 20:57:32 +0200
 
 kdenlive (0.7.8-3) unstable; urgency=low
 

@@ -7,7 +7,7 @@ Standards-Version: 3.9.1
 Build-Depends: debhelper (>= 7), pkg-config, cmake, kdelibs5-dev,
  libmlt-dev, libmlt++-dev, libavcodec-dev, libavformat-dev,
  libavdevice-dev, libavutil-dev, libqt4-dev (>= 4:4.6),
- shared-desktop-ontologies, libx11-dev
+ shared-desktop-ontologies, libx11-dev, libqt4-opengl-dev
 
 Package: kdenlive
 Architecture: any
