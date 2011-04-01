@@ -17,7 +17,8 @@ Build-Depends: debhelper (>= 7),
  libqt4-dev,
  shared-desktop-ontologies,
  libx11-dev,
- libqt4-opengl-dev
+ libqt4-opengl-dev,
+ libqjson-dev
 
 Package: kdenlive
 Architecture: any
