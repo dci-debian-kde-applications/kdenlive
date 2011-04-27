@@ -2,8 +2,9 @@ kdenlive (0.8-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.2 (no changes needed).
+  * Fix lintian warning description-synopsis-starts-with-article.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 27 Apr 2011 21:21:09 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 27 Apr 2011 21:32:46 +0200
 
 kdenlive (0.7.8+svn5529-1) unstable; urgency=low
 
