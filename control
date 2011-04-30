@@ -18,8 +18,8 @@ Build-Depends: debhelper (>= 7),
  shared-desktop-ontologies,
  libx11-dev,
  libqt4-opengl-dev,
- libqjson-dev
-
+ libqjson-dev,
+ hardening-wrapper
 Package: kdenlive
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
