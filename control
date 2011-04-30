@@ -20,6 +20,7 @@ Build-Depends: debhelper (>= 7),
  libqt4-opengl-dev,
  libqjson-dev,
  hardening-wrapper
+
 Package: kdenlive
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
