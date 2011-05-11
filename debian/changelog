@@ -1,3 +1,9 @@
+kdenlive (0.8-3) UNRELEASED; urgency=low
+
+  * Bump mlt build dependencies to >= 0.7.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 11 May 2011 19:20:06 +0200
+
 kdenlive (0.8-2) unstable; urgency=low
 
   * Build with hardening-wrapper.
