@@ -1,6 +1,7 @@
 kdenlive (0.8-3) UNRELEASED; urgency=low
 
   * Bump mlt build dependencies to >= 0.7.
+    Closes: #626275
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 11 May 2011 19:20:06 +0200
 
