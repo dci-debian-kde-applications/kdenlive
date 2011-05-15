@@ -16,13 +16,19 @@ ifeq ($(NCPUS),0)
 	NCPUS:=1
 endif
 
+EXTRAFLAGS :=
+ifeq ($(DEB_BUILD_ARCH_OS),kfreebsd)
+	EXTRAFLAGS := -DNO_JOGSHUTTLE=YES
+endif
+
 CMAKE_SYSTEM_PROCESSOR = $(shell dpkg-architecture -qDEB_BUILD_ARCH)
 
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
 	[ -d build ] || mkdir build
-	cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_SKIP_RPATH:BOOL=YES
+	cd build && cmake .. \
+		-DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_SKIP_RPATH:BOOL=YES $(EXTRAFLAGS)
 	touch $@
 
 build: build-stamp

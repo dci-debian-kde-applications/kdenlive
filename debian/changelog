@@ -1,3 +1,9 @@
+kdenlive (0.8-4) UNRELEASED; urgency=low
+
+  * Allow build on kFreeBSD by adding option NO_JOGSHUTTLE.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 15 May 2011 14:32:27 +0200
+
 kdenlive (0.8-3) unstable; urgency=low
 
   * Bump mlt build dependencies to >= 0.7.
