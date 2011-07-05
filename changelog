@@ -1,3 +1,9 @@
+kdenlive (0.8-5) UNRELEASED; urgency=low
+
+  * Add missing makefile targets build-arch and build-indep.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 05 Jul 2011 19:28:59 +0200
+
 kdenlive (0.8-4) unstable; urgency=low
 
   * Allow build on kFreeBSD by adding option NO_JOGSHUTTLE.
