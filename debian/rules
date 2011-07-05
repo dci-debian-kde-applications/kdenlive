@@ -37,6 +37,10 @@ build-stamp: configure
 	cd build && $(MAKE) -j $(NCPUS)
 	touch $@
 
+build-arch: build
+
+build-indep: build
+
 clean:
 	dh_testdir
 	dh_testroot
