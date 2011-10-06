@@ -1,8 +1,11 @@
-kdenlive (0.8-5) UNRELEASED; urgency=low
+kdenlive (0.8+svn5945-1) UNRELEASED; urgency=low
 
+  * New upstream svn snapshot.
+    - Fixed MLT 0.7.4 incompatibility.
+      Closes: #636933
   * Add missing makefile targets build-arch and build-indep.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 05 Jul 2011 19:28:59 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 06 Oct 2011 13:26:26 +0200
 
 kdenlive (0.8-4) unstable; urgency=low
 
