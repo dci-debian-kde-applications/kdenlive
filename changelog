@@ -1,3 +1,9 @@
+kdenlive (0.8.2-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 Nov 2011 10:07:17 +0100
+
 kdenlive (0.8+svn5945-1) unstable; urgency=low
 
   * New upstream svn snapshot.
