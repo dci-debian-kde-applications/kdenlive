@@ -1,8 +1,9 @@
 kdenlive (0.8.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Remove broken symlinks from documentation.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 Nov 2011 10:07:17 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 Nov 2011 11:17:15 +0100
 
 kdenlive (0.8+svn5945-1) unstable; urgency=low
 

@@ -55,6 +55,7 @@ install: build
 	dh_testroot
 	dh_prep
 	cd build && $(MAKE) install DESTDIR=$(CURDIR)/debian/tmp
+	rm -f $(CURDIR)/debian/tmp/usr/share/doc/kde/HTML/*/kdenlive/common
 	cp $(CURDIR)/data/kdenlive.menu $(CURDIR)/debian/
 	dh_install --list-missing
 
