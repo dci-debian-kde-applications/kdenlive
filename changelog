@@ -1,8 +1,8 @@
-kdenlive (0.8.2.1-1) UNRELEASED; urgency=low
+kdenlive (0.8.2.1-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 11 Dec 2011 17:50:56 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 11 Dec 2011 17:51:45 +0100
 
 kdenlive (0.8.2-1) unstable; urgency=low
 
