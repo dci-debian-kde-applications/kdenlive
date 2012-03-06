@@ -1,0 +1,14 @@
+# Fix FTBFS with Qt 4.8.
+# Author: Felix Geyer <debfx@ubuntu.com>
+
+diff -Naur kdenlive-0.8.2.1.orig/src/videoglwidget.cpp kdenlive-0.8.2.1/src/videoglwidget.cpp
+--- kdenlive-0.8.2.1.orig/src/videoglwidget.cpp	2011-12-07 09:02:13.000000000 +0100
++++ kdenlive-0.8.2.1/src/videoglwidget.cpp	2012-03-06 22:37:09.804942053 +0100
+@@ -1,6 +1,7 @@
+ 
+ #include <QtGui>
+ #include <QtOpenGL>
++#include <GL/glu.h>
+ #include "videoglwidget.h"
+ 
+ #ifndef GL_TEXTURE_RECTANGLE_EXT
