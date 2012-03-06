@@ -1,8 +1,10 @@
 kdenlive (0.8.2.1-2) UNRELEASED; urgency=low
 
   * Bump Standards-Version to 3.9.3 (no changed needed).
+  * Add patch 01-glu-include from Felix Geyer to build with Qt 4.8.
+    Closes: #662769
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 24 Feb 2012 16:08:15 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 06 Mar 2012 22:39:24 +0100
 
 kdenlive (0.8.2.1-1) unstable; urgency=low
 
