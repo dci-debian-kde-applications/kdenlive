@@ -23,10 +23,17 @@ Build-Depends: debhelper (>= 7),
 
 Package: kdenlive
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
  kdenlive-data (= ${source:Version}),
- melt, ffmpeg
-Recommends: swh-plugins, dvgrab, frei0r-plugins, recordmydesktop, dvdauthor, genisoimage
+ melt,
+ ffmpeg
+Recommends: swh-plugins,
+ dvgrab,
+ frei0r-plugins,
+ recordmydesktop,
+ dvdauthor,
+ genisoimage
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
@@ -60,7 +67,8 @@ Package: kdenlive-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdenlive (= ${binary:Version})
+Depends: ${misc:Depends},
+ kdenlive (= ${binary:Version})
 Description: non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
  more formats.
