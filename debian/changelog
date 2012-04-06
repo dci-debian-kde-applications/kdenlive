@@ -1,8 +1,9 @@
 kdenlive (0.8.2.1-3) UNRELEASED; urgency=low
 
   * Wrap all debian/control lines.
+  * Remove obsolete README.Debian.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 06 Apr 2012 21:15:21 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 06 Apr 2012 21:16:50 +0200
 
 kdenlive (0.8.2.1-2) unstable; urgency=low
 

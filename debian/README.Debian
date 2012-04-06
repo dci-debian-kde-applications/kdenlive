@@ -1,6 +1,0 @@
-In the Debian version of kdenlive you are not able to
-encode some patented formats, like AAC and MPEG-Layer-3.
-
-This limitation itself does not exist in the kdenlive
-package, but in ffmpeg, who are not permitted to ship
-encoding support for such hard patented codecs.
