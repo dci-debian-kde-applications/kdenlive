@@ -1,9 +1,9 @@
-kdenlive (0.8.2.1+git20120409-1) UNRELEASED; urgency=low
+kdenlive (0.8.2.1+git20120409-1) unstable; urgency=low
 
   * New upstream git snapshot.
   * Bump build dependency on mlt to 0.7.8+git20120409.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 09 Apr 2012 15:45:10 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 09 Apr 2012 19:20:01 +0200
 
 kdenlive (0.8.2.1+git20120406-1) unstable; urgency=low
 
