@@ -1,8 +1,8 @@
-kdenlive (0.8.2.1+git20120513-1) UNRELEASED; urgency=low
+kdenlive (0.8.2.1+git20120513-1) unstable; urgency=low
 
   * New upstream git snapshot.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 May 2012 23:29:26 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sun, 13 May 2012 12:54:06 +0200
 
 kdenlive (0.8.2.1+git20120422-1) unstable; urgency=low
 
