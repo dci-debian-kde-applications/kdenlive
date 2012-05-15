@@ -1,3 +1,10 @@
+kdenlive (0.9-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+    - Enable localizations.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 15 May 2012 11:16:47 +0200
+
 kdenlive (0.8.2.1+git20120513-1) unstable; urgency=low
 
   * New upstream git snapshot.
