@@ -1,3 +1,9 @@
+kdenlive (0.9.2-3) UNRELEASED; urgency=low
+
+  * Bump Standards-Version to 3.9.4 (no changes needed).
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 20 Sep 2012 10:48:54 +0200
+
 kdenlive (0.9.2-2) unstable; urgency=low
 
   * Correct debian/watch file, the releases are now bzip2 compressed.
