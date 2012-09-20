@@ -71,7 +71,7 @@ binary-indep: build install
 	dh_installdeb -i
 	dh_gencontrol -i
 	dh_md5sums -i
-	dh_builddeb -i
+	dh_builddeb -i -- -Zxz
 
 binary-arch: build install
 	dh_testdir -a
@@ -86,7 +86,7 @@ binary-arch: build install
 	dh_shlibdeps -a
 	dh_gencontrol -a
 	dh_md5sums -a
-	dh_builddeb -a
+	dh_builddeb -a -- -Zxz
 
 get-orig-source:
 	@@dh_testdir
