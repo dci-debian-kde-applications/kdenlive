@@ -1,11 +1,11 @@
-kdenlive (0.9.2-3) UNRELEASED; urgency=low
+kdenlive (0.9.2-3) experimental; urgency=low
 
   * Bump Standards-Version to 3.9.4 (no changes needed).
   * Switch to xz compression and add a Pre-Depends on dpkg.
   * Fix long description. Thanks to Filipus Klutiero.
     Closes: #689995
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 20 Sep 2012 10:48:54 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 12 Nov 2012 19:50:32 +0100
 
 kdenlive (0.9.2-2) unstable; urgency=low
 
