@@ -36,7 +36,7 @@ Recommends: swh-plugins,
  dvdauthor,
  genisoimage
 Description: non-linear video editor
- Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
  It main features are:
   * Guides and marker for organizing timelines
@@ -53,7 +53,7 @@ Depends: ${misc:Depends}
 Recommends: kdenlive
 Breaks: kdenlive (<= 0.7.2.1)
 Description: non-linear video editor (data files)
- Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
  It main features are:
   * Guides and marker for organizing timelines
@@ -73,7 +73,7 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends},
  kdenlive (= ${binary:Version})
 Description: non-linear video editor (debugging symbols)
- Kdenlive is a non-linear video editing suite, which supports DV, HDC and much
+ Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
  It main features are:
   * Guides and marker for organizing timelines
