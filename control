@@ -38,11 +38,11 @@ Recommends: swh-plugins,
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
- It main features are:
+ Its main features are:
   * Guides and marker for organizing timelines
   * Copy and paste support for clips, effects and transitions
   * Real time changes
-  * Firewire and Video4Linux capture
+  * FireWire and Video4Linux capture
   * Screen grabbing
   * Exporting to any by FFMPEG supported format
 
@@ -55,11 +55,11 @@ Breaks: kdenlive (<= 0.7.2.1)
 Description: non-linear video editor (data files)
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
- It main features are:
+ Its main features are:
   * Guides and marker for organizing timelines
   * Copy and paste support for clips, effects and transitions
   * Real time changes
-  * Firewire and Video4Linux capture
+  * FireWire and Video4Linux capture
   * Screen grabbing
   * Exporting to any by FFMPEG supported format
  .
@@ -75,11 +75,11 @@ Depends: ${misc:Depends},
 Description: non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
- It main features are:
+ Its main features are:
   * Guides and marker for organizing timelines
   * Copy and paste support for clips, effects and transitions
   * Real time changes
-  * Firewire and Video4Linux capture
+  * FireWire and Video4Linux capture
   * Screen grabbing
   * Exporting to any by FFMPEG supported format
  .
