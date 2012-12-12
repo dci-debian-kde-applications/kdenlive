@@ -1,9 +1,9 @@
-kdenlive (0.9.2-4) UNRELEASED; urgency=low
+kdenlive (0.9.2-4) experimental; urgency=low
 
   * Again some fixes for the long description. Thanks to Filipus Klutiero.
     Closes: #693180
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 15 Nov 2012 13:18:05 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 12 Dec 2012 11:07:55 +0100
 
 kdenlive (0.9.2-3) experimental; urgency=low
 
