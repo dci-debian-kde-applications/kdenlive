@@ -1,6 +1,8 @@
 kdenlive (0.9.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Build against mlt version 0.8.8.
+  * Migrate package to minimal debhelper rules.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 29 Jan 2013 09:10:44 +0100
 
