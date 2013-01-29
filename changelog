@@ -1,10 +1,10 @@
-kdenlive (0.9.4-1) UNRELEASED; urgency=low
+kdenlive (0.9.4-1) experimental; urgency=low
 
   * New upstream release.
   * Build against mlt version 0.8.8.
   * Migrate package to minimal debhelper rules.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 29 Jan 2013 09:10:44 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 29 Jan 2013 09:30:26 +0100
 
 kdenlive (0.9.2-4) experimental; urgency=low
 
