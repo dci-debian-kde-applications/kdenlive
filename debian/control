@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.9.4
-Build-Depends: debhelper (>= 7),
+Build-Depends: debhelper (>= 9),
  pkg-config,
  cmake,
  kdelibs5-dev,
- libmlt-dev (>= 0.7.8),
- libmlt++-dev (>= 0.7.8),
+ libmlt-dev (>= 0.8.8),
+ libmlt++-dev (>= 0.8.8),
  libavcodec-dev,
  libavformat-dev,
  libavdevice-dev,
