@@ -1,8 +1,8 @@
-kdenlive (0.9.6-1) UNRELEASED; urgency=low
+kdenlive (0.9.6-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 08 Apr 2013 09:31:09 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 08 Apr 2013 09:31:57 +0200
 
 kdenlive (0.9.4-1) experimental; urgency=low
 
