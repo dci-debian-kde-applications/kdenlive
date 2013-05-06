@@ -1,3 +1,9 @@
+kdenlive (0.9.6-2) UNRELEASED; urgency=low
+
+  * Uploading to unstable.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 06 May 2013 09:45:40 +0200
+
 kdenlive (0.9.6-1) experimental; urgency=low
 
   * New upstream release.
