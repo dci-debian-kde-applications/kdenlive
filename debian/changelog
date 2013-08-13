@@ -1,4 +1,4 @@
-kdenlive (0.9.6-3) UNRELEASED; urgency=low
+kdenlive (0.9.6-3) unstable; urgency=low
 
   * Move from ffmpeg to avconv.
     Closes: #710419
@@ -6,7 +6,7 @@ kdenlive (0.9.6-3) UNRELEASED; urgency=low
   * Add patch 01-desktop-keywords to fix lintian warning
     desktop-entry-lacks-keywords-entry.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Aug 2013 10:10:12 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Aug 2013 11:07:09 +0200
 
 kdenlive (0.9.6-2) unstable; urgency=low
 
