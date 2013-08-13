@@ -3,6 +3,8 @@ kdenlive (0.9.6-3) UNRELEASED; urgency=low
   * Move from ffmpeg to avconv.
     Closes: #710419
   * Build depend on libmlt >= 0.9.0.
+  * Add patch 01-desktop-keywords to fix lintian warning
+    desktop-entry-lacks-keywords-entry.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Aug 2013 10:10:12 +0200
 
