@@ -36,6 +36,7 @@ Recommends: swh-plugins,
  recordmydesktop,
  dvdauthor,
  genisoimage
+Suggests: khelpcenter4
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
