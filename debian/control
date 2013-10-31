@@ -3,7 +3,7 @@ Section: video
 Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9),
  pkg-config,
  cmake,
