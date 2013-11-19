@@ -2,6 +2,7 @@ kdenlive (0.9.6-5) UNRELEASED; urgency=low
 
   * Bump Standards-Version to 3.9.5 (no changes needed).
   * Don't explicitly request xz compression - dpkg 1.17 does this by default.
+  * Point debian/watch to new download location.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 31 Oct 2013 10:45:05 +0100
 
