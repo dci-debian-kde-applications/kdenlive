@@ -3,6 +3,7 @@ kdenlive (0.9.8-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Use profiles from mlt.
       Closes: #739878
+  * Use debian/clean instead of overwriting dh_auto_clean.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 14 May 2014 13:23:55 +0200
 
