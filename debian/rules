@@ -14,10 +14,6 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- $(EXTRAFLAGS)
 
-override_dh_auto_clean:
-	rm -f $(CURDIR)/debian/kdenlive.menu
-	dh_auto_clean
-
 override_dh_install:
 	rm -f $(CURDIR)/debian/tmp/usr/share/doc/kde/HTML/*/kdenlive/common
 	cp $(CURDIR)/data/kdenlive.menu $(CURDIR)/debian/
