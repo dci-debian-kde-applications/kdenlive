@@ -4,6 +4,8 @@ kdenlive (0.9.8-1) UNRELEASED; urgency=medium
     - Use profiles from mlt.
       Closes: #739878
   * Use debian/clean instead of overwriting dh_auto_clean.
+  * Overwrite debian-watch-may-check-gpg-signature warning. There is no GPG
+    signature available.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 14 May 2014 13:23:55 +0200
 
