@@ -1,4 +1,4 @@
-kdenlive (0.9.8-1) UNRELEASED; urgency=medium
+kdenlive (0.9.8-1) unstable; urgency=medium
 
   * New upstream release.
     - Use profiles from mlt.
@@ -8,7 +8,7 @@ kdenlive (0.9.8-1) UNRELEASED; urgency=medium
   * Overwrite debian-watch-may-check-gpg-signature warning. There is no GPG
     signature available.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 14 May 2014 13:23:55 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 14 May 2014 15:42:18 +0200
 
 kdenlive (0.9.6-5) unstable; urgency=low
 
