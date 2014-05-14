@@ -3,6 +3,7 @@ kdenlive (0.9.8-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Use profiles from mlt.
       Closes: #739878
+    - Locales have been removed in this release.
   * Use debian/clean instead of overwriting dh_auto_clean.
   * Overwrite debian-watch-may-check-gpg-signature warning. There is no GPG
     signature available.
