@@ -2,6 +2,7 @@ kdenlive (0.9.8-2) UNRELEASED; urgency=medium
 
   * Removed build depends on libav.
     Closes: #748277
+  * Bump Standards-Version to 3.9.6 (no changes required).
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 16 May 2014 09:07:00 +0200
 
