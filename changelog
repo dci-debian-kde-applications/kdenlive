@@ -1,11 +1,11 @@
-kdenlive (0.9.8-2) UNRELEASED; urgency=medium
+kdenlive (0.9.8-2) unstable; urgency=medium
 
   * Removed build depends on libav.
     Closes: #748277
   * Bump Standards-Version to 3.9.6 (no changes required).
   * Remove build depends on hardening-wrapper.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Fri, 16 May 2014 09:07:00 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 24 Sep 2014 19:57:52 +0200
 
 kdenlive (0.9.8-1) unstable; urgency=medium
 
