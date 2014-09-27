@@ -1,3 +1,9 @@
+kdenlive (0.9.10-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 27 Sep 2014 11:23:30 +0200
+
 kdenlive (0.9.8-2) unstable; urgency=medium
 
   * Removed build depends on libav.
