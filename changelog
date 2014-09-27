@@ -2,6 +2,7 @@ kdenlive (0.9.10-1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Locales are again in the release tarball.
+    - Refresh patch 01-desktop-keywords.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 27 Sep 2014 11:23:30 +0200
 
