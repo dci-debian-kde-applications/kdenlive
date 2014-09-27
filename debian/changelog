@@ -1,10 +1,10 @@
-kdenlive (0.9.10-1) UNRELEASED; urgency=medium
+kdenlive (0.9.10-1) unstable; urgency=medium
 
   * New upstream release.
     - Locales are again in the release tarball.
     - Refresh patch 01-desktop-keywords.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 27 Sep 2014 11:23:30 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Sat, 27 Sep 2014 11:29:48 +0200
 
 kdenlive (0.9.8-2) unstable; urgency=medium
 
