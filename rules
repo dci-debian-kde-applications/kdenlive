@@ -13,6 +13,9 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- $(EXTRAFLAGS)
 
+override_dh_compress:
+	dh_compress -X.docbook
+
 override_dh_install:
 	rm -f $(CURDIR)/debian/tmp/usr/share/doc/kde/HTML/*/kdenlive/common
 	cp $(CURDIR)/data/kdenlive.menu $(CURDIR)/debian/
