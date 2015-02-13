@@ -1,37 +1,50 @@
 Source: kdenlive
 Section: video
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 XSBC-Original-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9),
- pkg-config,
- cmake,
- kdelibs5-dev,
- libmlt-dev (>= 0.9.0),
- libmlt++-dev (>= 0.9.0),
- libav-tools,
- libqt4-dev,
- shared-desktop-ontologies,
- libx11-dev,
- libv4l-dev,
- libqt4-opengl-dev,
- libqjson-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               kdoctools-dev,
+               kio-dev,
+               libav-tools,
+               libkf5archive-dev,
+               libkf5bookmarks-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5guiaddons-dev,
+               libkf5iconthemes-dev,
+               libkf5newstuff-dev,
+               libkf5notifications-dev,
+               libkf5notifyconfig-dev,
+               libkf5plotting-dev,
+               libkf5textwidgets-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libmlt++-dev (>= 0.9.0),
+               libmlt-dev (>= 0.9.0),
+               libv4l-dev,
+               libx11-dev,
+               pkg-config
 
 Package: kdenlive
 Architecture: any
-Depends: ${shlibs:Depends},
- ${misc:Depends},
- kdenlive-data (= ${source:Version}),
- melt,
- libav-tools
-Recommends: swh-plugins,
- dvgrab,
- frei0r-plugins,
- recordmydesktop,
- dvdauthor,
- genisoimage
+Depends: kdenlive-data (= ${source:Version}),
+         libav-tools,
+         melt,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: dvdauthor,
+            dvgrab,
+            frei0r-plugins,
+            genisoimage,
+            recordmydesktop,
+            swh-plugins
 Suggests: khelpcenter4
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
@@ -66,8 +79,7 @@ Package: kdenlive-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends},
- kdenlive (= ${binary:Version})
+Depends: kdenlive (= ${binary:Version}), ${misc:Depends}
 Description: non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
