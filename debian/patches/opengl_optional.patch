@@ -1,0 +1,22 @@
+Description: Make OPENGL "optional".
+ For whatever reason, cmake has never been able to find
+ GLES and consider it good enough for a GL requirement,
+ since we build-dep on what we need anyway, just make GL
+ optional.
+Author: Adam Conrad <adconrad@ubuntu.com>
+Forwarded: no
+Last-Update: 2012-06-30
+
+Index: kdenlive-0.9.2/src/CMakeLists.txt
+===================================================================
+--- kdenlive-0.9.2.orig/src/CMakeLists.txt	2012-06-30 13:02:41.000000000 -0600
++++ kdenlive-0.9.2/src/CMakeLists.txt	2012-06-30 13:28:10.456492241 -0600
+@@ -4,7 +4,7 @@
+ set(QT_USE_QTSVG 1)
+ set(QT_USE_QTXML 1)
+ 
+-find_package(OpenGL REQUIRED)
++macro_optional_find_package(OpenGL)
+ if(APPLE)
+   find_package(SDL REQUIRED)
+ endif(APPLE)
