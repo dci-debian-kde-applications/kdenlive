@@ -34,6 +34,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools,
                qtscript5-dev
+Homepage: https://kdenlive.org/
 
 Package: kdenlive
 Architecture: any
