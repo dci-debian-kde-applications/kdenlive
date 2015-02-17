@@ -31,7 +31,8 @@ Build-Depends: cmake,
                libv4l-dev,
                libx11-dev,
                pkg-config,
-               pkg-kde-tools
+               pkg-kde-tools,
+               qtscript5-dev
 
 Package: kdenlive
 Architecture: any
