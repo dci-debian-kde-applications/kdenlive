@@ -1,0 +1,3 @@
+# false positives, compressed in deb
+./usr/share/man/man1/kdenlive.1
+./usr/share/man/man1/kdenlive_render.1
