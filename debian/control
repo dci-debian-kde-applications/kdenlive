@@ -3,7 +3,7 @@ Section: video
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 XSBC-Original-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
-Homepage: http://www.kdenlive.org/
+Homepage: https://kdenlive.org/
 Standards-Version: 3.9.6
 Build-Depends: cmake,
                debhelper (>= 9),
@@ -28,13 +28,13 @@ Build-Depends: cmake,
                libkf5xmlgui-dev,
                libmlt++-dev (>= 0.9.0),
                libmlt-dev (>= 0.9.0),
+               libqt5opengl5-dev,
                libqt5svg5-dev,
                libv4l-dev,
                libx11-dev,
                pkg-config,
                pkg-kde-tools,
                qtscript5-dev
-Homepage: https://kdenlive.org/
 
 Package: kdenlive
 Architecture: any
