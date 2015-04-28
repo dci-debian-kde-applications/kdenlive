@@ -1,6 +1,7 @@
 kdenlive (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Fix watch file 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 28 Apr 2015 15:14:48 -0700
 
