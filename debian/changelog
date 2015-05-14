@@ -1,9 +1,10 @@
-kdenlive (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kdenlive (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Fix watch file 
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 28 Apr 2015 15:14:48 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:49:04 -0700
 
 kdenlive (0.9.50-0ubuntu1) UNRELEASED; urgency=medium
 
