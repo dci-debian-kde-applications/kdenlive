@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-#export DH_VERBOSE=1
-
 EXTRAFLAGS :=
 ifeq ($(DEB_BUILD_ARCH_OS),kfreebsd)
 	EXTRAFLAGS := -DNO_JOGSHUTTLE=YES
