@@ -7,16 +7,32 @@ Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9),
  pkg-config,
  cmake,
- kdelibs5-dev,
  libmlt-dev (>= 0.9.0),
  libmlt++-dev (>= 0.9.0),
  ffmpeg,
- libqt5-dev,
- shared-desktop-ontologies,
- libx11-dev,
+ libqt5opengl5-dev,
+ extra-cmake-modules,
+ qtscript5-dev,
+ libqt5svg5-dev,
+ kdoctools-dev,
+ kio-dev,
  libv4l-dev,
- libqt4-opengl-dev,
- libqjson-dev
+ libkf5archive-dev,
+ libkf5bookmarks-dev,
+ libkf5config-dev,
+ libkf5configwidgets-dev,
+ libkf5coreaddons-dev,
+ libkf5coreaddons-dev,
+ libkf5dbusaddons-dev,
+ libkf5guiaddons-dev,
+ libkf5iconthemes-dev,
+ libkf5newstuff-dev,
+ libkf5notifications-dev,
+ libkf5notifyconfig-dev,
+ libkf5plotting-dev,
+ libkf5textwidgets-dev,
+ libkf5widgetsaddons-dev,
+ libkf5xmlgui-dev
 
 Package: kdenlive
 Architecture: any
@@ -31,7 +47,7 @@ Recommends: swh-plugins,
  recordmydesktop,
  dvdauthor,
  genisoimage
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
