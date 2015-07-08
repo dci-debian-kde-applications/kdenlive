@@ -1,86 +1,375 @@
-This package was debianized by Patrick Matthäi <pmatthaei@debian.org> on
-Wed, 26 Nov 2008 23:18:12 +0200.
-I also took some impressions and debian/rules code from Christian Marillat's
-<marillat@debian.org> debian-multimedia.org packaging. Thanks for your previous
-work.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
+Files: *
+Copyright: 2007-2012, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
 
-It was downloaded from: http://sourceforge.net/projects/kdenlive
+Files: src/colortools.cpp
+  src/colortools.h
+Copyright: 2008, 2010-2012, Simon Andreas Eugster (simon.eu@gmail.com)
+License: GPL-2+
 
-Copyright:
-			2007-2008 by Jean-Baptiste Mardelle (jb@kdenlive.org)
-			2007-2008 by Marco Gittler (g.marco@freenet.de)
-			2007 by Luca Gugelmann <lucag@student.ethz.ch>
-			2006 by Peter Penz
+Files: src/core.cpp
+  src/core.h
+  src/mltconnection.h
+Copyright: 2014, Till Theato <root@ttill.de>
+License: GPL-3+
 
-Upstream Authors:
-			Jean-Baptiste Mardelle <jb@kdenlive.org>
-			Marco Gittler <g.marco@freenet.de>
-			Jean-Michel Pouré <jm@poure.com>
-			Jason Wood <jasonwood@blueyonder.co.uk>
+Files: src/doc/docclipbase.cpp
+Copyright: 2007, Jean-Baptiste Mardelle (jb@kdenlive.org)
+  2002, Jason Wood (jasonwood@blueyonder.co.uk)
+License: GPL-2+
 
+Files: src/doc/docclipbase.h
+  src/doc/kthumb.h
+Copyright: 2002, 2003, Jason Wood
+License: GPL-2+
 
-License (src/regiongrabber.cpp, src/regiongrabber.h):
+Files: src/doc/kthumb.cpp
+Copyright: : Marco Gittler / : 2005, Lcio Fl�io Corr� / : 2002,Jason Wood
+License: GPL-2+
 
-		This program is free software; you can redistribute it and/or modify it
-		under the terms of the GNU Library General Public License version 2 as
-		published by the Free Software Foundation
+Files: src/effectslist/effectslist.cpp
+  src/effectslist/effectslist.h
+Copyright: 2002, 2003, Jason Wood
+License: GPL-2+
 
-		This program is distributed in the hope that it will be useful,
-		but WITHOUT ANY WARRANTY; without even the implied warranty of
-		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-		GNU General Public License for more details
+Files: src/effectslist/initeffects.cpp
+Copyright: : 2008, Marco Gittler / : 2006,Jean-Baptiste Mardelle
+License: GPL-2+
 
-		You should have received a copy of the GNU Library General Public
-		License along with this program; if not, write to the
-		Free Software Foundation, Inc.,
-		51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+Files: src/effectslist/initeffects.h
+Copyright: 2006, 2008, 2010, Jean-Baptiste Mardelle
+License: GPL-2+
 
-On Debian systems, the complete text of the GNU General Public License
-version 2 can be found in the /usr/share/common-licenses/LGPL-2 file.
+Files: src/effectstack/*
+Copyright: : 2008,Marco Gittler
+License: GPL-2+
 
-License (everything else):
+Files: src/effectstack/abstractcollapsiblewidget.cpp
+  src/effectstack/abstractcollapsiblewidget.h
+  src/effectstack/collapsibleeffect.cpp
+  src/effectstack/collapsibleeffect.h
+  src/effectstack/collapsiblegroup.cpp
+  src/effectstack/collapsiblegroup.h
+  src/effectstack/keyframehelper.cpp
+  src/effectstack/keyframehelper.h
+  src/effectstack/parametercontainer.cpp
+  src/effectstack/parametercontainer.h
+Copyright: 2007-2012, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
 
-		This program is free software; you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation; either version 2 of the License, or
-        (at your option) any later version.
+Files: src/effectstack/dragvalue.cpp
+Copyright: 2011, Till Theato (root@ttill.de)
+  2011, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
 
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-        GNU General Public License for more details.
+Files: src/effectstack/dragvalue.h
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
 
-        You should have received a copy of the GNU General Public License
-        along with this program; if not, write to the Free Software
-        Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+Files: src/effectstack/effectstackview2.cpp
+  src/effectstack/effectstackview2.h
+Copyright: : 2012,Jean-Baptiste Mardelle (jb@kdenlive.org) / : 2008,Marco Gittler (g.marco@freenet.de)
+License: GPL-2+
 
-On Debian systems, the complete text of the GNU General Public License
-can be found in the /usr/share/common-licenses/GPL-2 file.
+Files: src/effectstack/graphicsscenerectmove.cpp
+  src/effectstack/graphicsscenerectmove.h
+Copyright: 2008, Marco Gittler (g.marco@freenet.de)
+  2008, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
 
+Files: src/effectstack/keyframeedit.h
+Copyright: 2006, 2008, 2010, Jean-Baptiste Mardelle
+License: GPL-2+
 
-The following files have additional copyright holders:
+Files: src/effectstack/widgets/*
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
 
-src/abstractclipitem.{cpp,h}, src/abstractgroupitem.{cpp,h}:
-	© 2008 by Marco Gittler (g.marco@freenet.de)
+Files: src/effectstack/widgets/kis_cubic_curve.cpp
+Copyright: 2010, Cyrille Berger <cberger@cberger.net>
+  2009, Dmitry Kazakov <dimula73@gmail.com>
+  2005, Casper Boemann <cbr@boemann.dk>
+License: GPL-2+
 
-src/main.cpp:
-	© 2007 by Marco Gittler (g.marco@freenet.de)
+Files: src/effectstack/widgets/kis_cubic_curve.h
+Copyright: 2010, Cyrille Berger <cberger@cberger.net>
+License: GPL-2+
 
-src/regiongrabber.{cpp,h}:
-	© 2007 Luca Gugelmann <lucag@student.ethz.ch>
+Files: src/effectstack/widgets/kis_curve_widget.cpp
+  src/effectstack/widgets/kis_curve_widget.h
+  src/effectstack/widgets/kis_curve_widget_p.h
+Copyright: 2009, Dmitry Kazakov <dimula73@gmail.com>
+  2005, Casper Boemann <cbr@boemann.dk>
+License: GPL-2+
 
-src/statusbarmessagelabel.{cpp,h}:
-	© 2006 by Peter Penz
+Files: src/gentime.cpp
+  src/gentime.h
+  src/timecode.h
+Copyright: 2002, 2003, Jason Wood
+License: GPL-2+
 
-thumbnailer/westleypreview.{cpp,h}:
-	© 2006-2008 by Marco Gulino <marco@kmobiletools.org>
+Files: src/hidetitlebars.cpp
+  src/hidetitlebars.h
+  src/layoutmanagement.cpp
+  src/layoutmanagement.h
+  src/mltconnection.cpp
+Copyright: 2014, Till Theato <root@ttill.de>
+  2007, 2010, 2012, Jean-Baptiste Mardelle <jb@kdenlive.org>
+License: GPL-3+
 
-src/kthumb.h, src/renderer.cpp:
-	© 2005 Lucio Flavio Correa
+Files: src/jogshuttle/jogaction.cpp
+  src/jogshuttle/jogaction.h
+  src/jogshuttle/jogshuttleconfig.cpp
+Copyright: 2010, Pascal Fleury (fleury@users.sourceforge.net)
+License: GPL-2+
 
-thumbnailer/westleypreview.h:
-	© 2006-2008 Marco Gulino <marco@kmobiletools.org>
+Files: src/jogshuttle/jogmanager.cpp
+  src/jogshuttle/jogmanager.h
+Copyright: 2014, Till Theato <root@ttill.de>
+License: GPL-3+
 
-The Debian packaging is © 2009, Patrick Matthäi <pmatthaei@debian.org> and
-is licensed under the GPL, see above.
+Files: src/kdenlivecore_export.h
+Copyright: 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: src/lib/*
+Copyright: 2012, Simon A. Eugster <simon.eu@gmail.com>
+License: GPL-2+
+
+Files: src/lib/audio/*
+Copyright: 2008, 2010-2012, Simon Andreas Eugster (simon.eu@gmail.com)
+License: GPL-2+
+
+Files: src/lib/audio/audioCorrelation.cpp
+  src/lib/audio/audioInfo.h
+  src/lib/audio/audioStreamInfo.cpp
+  src/lib/audio/audioStreamInfo.h
+  src/lib/audio/fftCorrelation.cpp
+  src/lib/audio/fftCorrelation.h
+Copyright: 2012, Simon A. Eugster (Granjow) <simon.eu@gmail.com>
+License: GPL-3+
+
+Files: src/lib/external/*
+Copyright: 2003-2010, Mark Borgerding (Mark@Borgerding.net)
+License: BSD-3-clause
+
+Files: src/lib/external/kiss_fft/tools/psdpng.c
+Copyright: 2003-2004, Mark Borgerding (Mark@Borgerding.net)
+License: BSD-3-clause
+
+Files: src/lib/external/media_ctrl/*
+Copyright: 2001-2007, Dan Dennedy <dan@dennedy.org>
+License: GPL-2+
+
+Files: src/main.cpp
+Copyright: 2008, Jean-Baptiste Mardelle (jb@kdenlive.org)
+  2007, 2015, Kdenlive authors
+  2007, Marco Gittler (g.marco@freenet.de)
+License: GPL-2+
+
+Files: src/monitor/monitoreditwidget.cpp
+  src/monitor/monitoreditwidget.h
+  src/monitor/monitorscene.cpp
+  src/monitor/monitorscene.h
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
+
+Files: src/monitor/twostateaction.cpp
+  src/monitor/twostateaction.h
+Copyright: 2014, Simon A. Eugster <simon.eu@gmail.com>
+License: GPL-3+
+
+Files: src/onmonitoritems/*
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
+
+Files: src/project/clippropertiesmanager.cpp
+  src/project/clippropertiesmanager.h
+Copyright: 2014, Till Theato <root@ttill.de>
+  2007, 2010, 2012, Jean-Baptiste Mardelle <jb@kdenlive.org>
+License: GPL-3+
+
+Files: src/project/clipstabilize.cpp
+  src/project/clipstabilize.h
+Copyright: 2011, Marco Gittler (marco@gitma.de)
+  2008, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
+
+Files: src/project/notesplugin.cpp
+  src/project/notesplugin.h
+  src/project/projectmanager.cpp
+  src/project/projectmanager.h
+Copyright: 2014, Till Theato <root@ttill.de>
+License: GPL-3+
+
+Files: src/project/projectcommands.cpp
+Copyright: 2014, Vincent Pinon (vpinon@april.org)
+  2008, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
+
+Files: src/project/transitionsettings.cpp
+  src/project/transitionsettings.h
+Copyright: : 2008,Marco Gittler
+License: GPL-2+
+
+Files: src/renderer.cpp
+Copyright: : Marco Gittler / : 2006, Jean-Baptiste Mardelle / : 2005, Lucio Flavio Correa / : 2002,Jason Wood
+License: GPL-2+
+
+Files: src/renderer.h
+Copyright: : 2010,Jean-Baptiste Mardelle (jb@kdenlive.org) / : 2002,Jason Wood (jasonwood@blueyonder.co.uk)
+License: GPL-2+
+
+Files: src/scopes/*
+Copyright: 2008, 2010-2012, Simon Andreas Eugster (simon.eu@gmail.com)
+License: GPL-2+
+
+Files: src/scopes/audioscopes/audiosignal.cpp
+  src/scopes/audioscopes/audiosignal.h
+Copyright: 2010, Marco Gittler (g.marco@freenet.de)
+License: GPL-2+
+
+Files: src/simplekeyframes/*
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
+
+Files: src/statusbarmessagelabel.cpp
+  src/statusbarmessagelabel.h
+Copyright: 2006, Peter Penz
+License: GPL-2+
+
+Files: src/stopmotion/stopmotion.cpp
+Copyright: 2006, 2008, 2010, Jean-Baptiste Mardelle
+License: GPL-2+
+
+Files: src/stopmotion/stopmotion.h
+Copyright: : 2008,Marco Gittler
+License: GPL-2+
+
+Files: src/timecode.cpp
+Copyright: : 2003,Jason Wood / 2010,Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
+
+Files: src/timecodedisplay.cpp
+  src/timecodedisplay.h
+Copyright: 2010, Jean-Baptiste Mardelle <jb@kdenlive.org>
+License: LGPL-2+
+
+Files: src/timeline/abstractclipitem.cpp
+  src/timeline/abstractclipitem.h
+  src/timeline/abstractgroupitem.cpp
+  src/timeline/abstractgroupitem.h
+Copyright: 2008, Marco Gittler (g.marco@freenet.de)
+  2008, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
+
+Files: src/timeline/timelinecommands.cpp
+  src/timeline/timelinecommands.h
+Copyright: 2014, Vincent Pinon (vpinon@april.org)
+  2010, Till Theato (root@ttill.de)
+  2008, Marco Gittler (g.marco@freenet.de)
+  2007-2012, Jean-Baptiste Mardelle (jb@kdenlive.org)
+License: GPL-2+
+
+Files: src/timeline/timelinesearch.cpp
+Copyright: 2014, Till Theato <root@ttill.de>
+  2007, 2010, 2012, Jean-Baptiste Mardelle <jb@kdenlive.org>
+License: GPL-3+
+
+Files: src/timeline/timelinesearch.h
+Copyright: 2014, Till Theato <root@ttill.de>
+License: GPL-3+
+
+Files: src/timeline/tracksconfigdialog.cpp
+  src/timeline/tracksconfigdialog.h
+Copyright: 2010, 2011, Till Theato (root@ttill.de)
+License: GPL-2+
+
+Files: src/timeline/transition.cpp
+  src/timeline/transition.h
+Copyright: 2006, 2008, 2010, Jean-Baptiste Mardelle
+License: GPL-2+
+
+Files: src/titler/*
+Copyright: : 2008,Marco Gittler
+License: GPL-2+
+
+Files: src/titler/KoSliderCombo.cpp
+Copyright: 2010, Jean-Baptiste Mardelle <jb@kdenlive.org>
+  2007, Casper Boemann <cbr@boemann.dk>
+License: LGPL-2+
+
+Files: src/titler/KoSliderCombo.h
+Copyright: 2007, Casper Boemann <cbr@boemann.dk>
+License: LGPL-2+
+
+Files: src/titler/unicodedialog.cpp
+  src/titler/unicodedialog.h
+Copyright: 2008, 2010-2012, Simon Andreas Eugster (simon.eu@gmail.com)
+License: GPL-2+
+
+Files: src/utils/thememanager.cpp
+  src/utils/thememanager.h
+Copyright: 2006-2013, Gilles Caulier <caulier dot gilles at gmail dot com>
+License: GPL-2+
+
+Files: testingArea/*
+Copyright: 2012, Simon A. Eugster (Granjow) <simon.eu@gmail.com>
+License: GPL-3+
+
+Files: thumbnailer/*
+Copyright: 2006-2008
+License: GPL-2+
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the author nor the names of any contributors may be used to endorse
+   or promote products derived from this software without specific prior
+   written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 dated June, 2007, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by the
+ Free Software Foundation; version 2 of the License, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU Library
+ Public License can be found in `/usr/share/common-licenses/LGPL-2'.
