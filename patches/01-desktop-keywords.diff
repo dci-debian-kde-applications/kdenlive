@@ -1,0 +1,11 @@
+# Add keywords to desktop file.
+
+diff -Naur kdenlive-15.04.3.orig/data/org.kde.kdenlive.desktop kdenlive-15.04.3/data/org.kde.kdenlive.desktop
+--- kdenlive-15.04.3.orig/data/org.kde.kdenlive.desktop	2015-06-23 16:09:38.000000000 +0200
++++ kdenlive-15.04.3/data/org.kde.kdenlive.desktop	2015-07-08 15:25:13.817058839 +0200
+@@ -124,4 +124,5 @@
+ Terminal=false
+ MimeType=application/x-kdenlive;
+ Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
++Keywords=video;audio;firewire;video4linux;suite;editing;kde;mlt;
+ X-DBUS-ServiceName=org.kde.kdenlive
