@@ -1,6 +1,10 @@
-debian/tmp/usr/share/icons usr/share/
-debian/tmp/usr/share/kde4/config.kcfg usr/share/kde4/
-debian/tmp/usr/share/kde4 usr/share/
-debian/tmp/usr/share/mime usr/share/
-debian/tmp/usr/share/doc/kde/HTML usr/share/doc/kde/
-debian/tmp/usr/share/locale usr/share/
+usr/share/icons
+usr/share/mime
+etc/xdg
+usr/share/appdata
+usr/share/kxmlgui5
+usr/share/kservices5
+usr/share/knotifications5
+usr/share/doc/HTML
+usr/share/kdenlive
+usr/share/config.kcfg
