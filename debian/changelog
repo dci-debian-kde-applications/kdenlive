@@ -3,6 +3,7 @@ kdenlive (15.04.3-1) UNRELEASED; urgency=low
   * New upstream release.
     - Drop patch 01-desktop-keywords.
     - Rewrite the whole build dependencies.
+    - Adjust install files.
   * Adjust debian/watch download location.
   * Switch away from libav to ffmpeg.
 
