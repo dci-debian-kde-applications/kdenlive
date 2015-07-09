@@ -1,0 +1,91 @@
+Description: Fix building on armhf
+ On armhf QtOpengl is built against OpenGLES, so check whether it's
+ build against OpenGL, and use OpenGLES if not.
+Origin: vendor
+Forwarded: https://bugs.kde.org/show_bug.cgi?id=350061
+Author: Philip Muskovac <yofel@kubuntu.org>
+Index: b/src/CMakeLists.txt
+===================================================================
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -4,7 +4,22 @@ set(QT_USE_QTSCRIPT 1)
+ set(QT_USE_QTSVG 1)
+ set(QT_USE_QTXML 1)
+ 
+-find_package(OpenGL REQUIRED)
++add_definitions(${Qt5Gui_DEFINITIONS})
++if(${Qt5Gui_OPENGL_IMPLEMENTATION} STREQUAL "GL")
++  find_package(OpenGL REQUIRED)
++  set_package_properties(OpenGL PROPERTIES
++    DESCRIPTION "the OpenGL library"
++                URL ""
++                TYPE RUNTIME
++                PURPOSE "")
++else()
++  find_package(OpenGLES REQUIRED)
++  set_package_properties(OpenGLES PROPERTIES
++    DESCRIPTION "the OpenGLES library"
++                URL ""
++                TYPE RUNTIME
++                PURPOSE "")
++endif()
+ if(APPLE)
+   find_package(SDL REQUIRED)
+ endif(APPLE)
+Index: b/cmake/modules/FindOpenGLES.cmake
+===================================================================
+--- /dev/null
++++ b/cmake/modules/FindOpenGLES.cmake
+@@ -0,0 +1,52 @@
++# - Try to find OpenGLES
++# Once done this will define
++#  
++#  OPENGLES_FOUND           - system has OpenGLES and EGL
++#  OPENGL_EGL_FOUND         - system has EGL
++#  OPENGLES_INCLUDE_DIR     - the GLES include directory
++#  OPENGLES_LIBRARY	    - the GLES library
++#  OPENGLES_EGL_INCLUDE_DIR - the EGL include directory
++#  OPENGLES_EGL_LIBRARY	    - the EGL library
++#  OPENGLES_LIBRARIES       - all libraries needed for OpenGLES
++#  OPENGLES_INCLUDES        - all includes needed for OpenGLES
++
++FIND_PATH(OPENGLES_INCLUDE_DIR GLES2/gl2.h
++  /usr/openwin/share/include
++  /opt/graphics/OpenGL/include /usr/X11R6/include
++  /usr/include
++)
++
++FIND_LIBRARY(OPENGLES_LIBRARY
++  NAMES GLESv2
++  PATHS /opt/graphics/OpenGL/lib
++        /usr/openwin/lib
++        /usr/shlib /usr/X11R6/lib
++        /usr/lib
++)
++
++FIND_PATH(OPENGLES_EGL_INCLUDE_DIR EGL/egl.h
++  /usr/openwin/share/include
++  /opt/graphics/OpenGL/include /usr/X11R6/include
++  /usr/include
++)
++
++FIND_LIBRARY(OPENGLES_EGL_LIBRARY
++    NAMES EGL
++    PATHS /usr/shlib /usr/X11R6/lib
++          /usr/lib
++)
++
++SET(OPENGL_EGL_FOUND "NO")
++IF(OPENGLES_EGL_LIBRARY AND OPENGLES_EGL_INCLUDE_DIR)
++    SET(OPENGL_EGL_FOUND "YES")
++ENDIF()
++
++SET(OPENGLES_FOUND "NO")
++IF(OPENGLES_LIBRARY AND OPENGLES_INCLUDE_DIR AND
++   OPENGLES_EGL_LIBRARY AND OPENGLES_EGL_INCLUDE_DIR)
++    SET(OPENGLES_LIBRARIES ${OPENGLES_LIBRARY} ${OPENGLES_LIBRARIES}
++                           ${OPENGLES_EGL_LIBRARY})
++    SET(OPENGLES_INCLUDES ${OPENGLES_INCLUDE_DIR} ${OPENGLES_EGL_INCLUDE_DIR})
++    SET(OPENGLES_FOUND "YES")
++ENDIF()
++
