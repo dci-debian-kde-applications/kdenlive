@@ -4,10 +4,10 @@ Description: Fix building on armhf
 Origin: vendor
 Forwarded: https://bugs.kde.org/show_bug.cgi?id=350061
 Author: Philip Muskovac <yofel@kubuntu.org>
-Index: b/src/CMakeLists.txt
+Index: kdenlive/src/CMakeLists.txt
 ===================================================================
---- a/src/CMakeLists.txt
-+++ b/src/CMakeLists.txt
+--- kdenlive.orig/src/CMakeLists.txt
++++ kdenlive/src/CMakeLists.txt
 @@ -4,7 +4,22 @@ set(QT_USE_QTSCRIPT 1)
  set(QT_USE_QTSVG 1)
  set(QT_USE_QTXML 1)
@@ -29,13 +29,13 @@ Index: b/src/CMakeLists.txt
 +                TYPE RUNTIME
 +                PURPOSE "")
 +endif()
- if(APPLE)
-   find_package(SDL REQUIRED)
- endif(APPLE)
-Index: b/cmake/modules/FindOpenGLES.cmake
+ 
+ option(WITH_JogShuttle "Build Jog/Shuttle support" ON)
+ 
+Index: kdenlive/cmake/modules/FindOpenGLES.cmake
 ===================================================================
 --- /dev/null
-+++ b/cmake/modules/FindOpenGLES.cmake
++++ kdenlive/cmake/modules/FindOpenGLES.cmake
 @@ -0,0 +1,52 @@
 +# - Try to find OpenGLES
 +# Once done this will define
