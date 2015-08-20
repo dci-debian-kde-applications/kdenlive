@@ -2,6 +2,7 @@ kdenlive (15.08.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Remove merged patch 02-armhf-armel-use-opengles.
+    - Add new build dependency qtdeclarative5-dev.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 20 Aug 2015 20:53:11 +0200
 
