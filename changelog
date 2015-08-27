@@ -1,4 +1,4 @@
-kdenlive (15.08.0-1) UNRELEASED; urgency=medium
+kdenlive (15.08.0-1) unstable; urgency=medium
 
   * New upstream release.
     - Remove merged patch 02-armhf-armel-use-opengles.
@@ -6,7 +6,7 @@ kdenlive (15.08.0-1) UNRELEASED; urgency=medium
   * Adjust debian/copyright.
   * Add patch 02-fix-spelling-error to fix a spelling error.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 20 Aug 2015 20:53:11 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 27 Aug 2015 19:17:49 +0200
 
 kdenlive (15.04.3-2) unstable; urgency=medium
 
