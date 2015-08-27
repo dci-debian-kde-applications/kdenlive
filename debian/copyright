@@ -176,11 +176,6 @@ Files: src/monitor/monitoreditwidget.cpp
 Copyright: 2010, 2011, Till Theato (root@ttill.de)
 License: GPL-2+
 
-Files: src/monitor/twostateaction.cpp
-  src/monitor/twostateaction.h
-Copyright: 2014, Simon A. Eugster <simon.eu@gmail.com>
-License: GPL-3+
-
 Files: src/onmonitoritems/*
 Copyright: 2010, 2011, Till Theato (root@ttill.de)
 License: GPL-2+
