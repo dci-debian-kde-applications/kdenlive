@@ -4,10 +4,10 @@ Description: Fix building on armhf
 Origin: vendor
 Forwarded: https://bugs.kde.org/show_bug.cgi?id=350061
 Author: Philip Muskovac <yofel@kubuntu.org>
-Index: kdenlive/src/CMakeLists.txt
+Index: b/src/CMakeLists.txt
 ===================================================================
---- kdenlive.orig/src/CMakeLists.txt
-+++ kdenlive/src/CMakeLists.txt
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
 @@ -4,7 +4,22 @@ set(QT_USE_QTSCRIPT 1)
  set(QT_USE_QTSVG 1)
  set(QT_USE_QTXML 1)
@@ -32,10 +32,18 @@ Index: kdenlive/src/CMakeLists.txt
  
  option(WITH_JogShuttle "Build Jog/Shuttle support" ON)
  
-Index: kdenlive/cmake/modules/FindOpenGLES.cmake
+@@ -230,6 +245,7 @@ target_link_libraries(kdenlive
+   ${Qt5_LIBRARIES}
+   Qt5::Svg
+   ${OPENGL_LIBRARIES}
++  ${OPENGLES_LIBRARIES}
+   ${MLT_LIBRARIES}
+   ${MLTPP_LIBRARIES}
+   ${CMAKE_DL_LIBS}
+Index: b/cmake/modules/FindOpenGLES.cmake
 ===================================================================
 --- /dev/null
-+++ kdenlive/cmake/modules/FindOpenGLES.cmake
++++ b/cmake/modules/FindOpenGLES.cmake
 @@ -0,0 +1,52 @@
 +# - Try to find OpenGLES
 +# Once done this will define
