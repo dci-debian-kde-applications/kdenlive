@@ -39,6 +39,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends},
  kdenlive-data (= ${source:Version}),
+ kinit,
  melt,
  ffmpeg
 Recommends: swh-plugins,
