@@ -1,6 +1,7 @@
 kdenlive (15.08.0-2) UNRELEASED; urgency=medium
 
-  * Add dependency on kinit. Without it the file browser will not work.
+  * Add dependency on kinit, kded5 and kio. Without it the file browser will
+    not work.
     Closes: #797684
   * Add again patch 03-armhf-armel-use-opengles, it was not merged.
 

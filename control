@@ -40,6 +40,8 @@ Depends: ${shlibs:Depends},
  ${misc:Depends},
  kdenlive-data (= ${source:Version}),
  kinit,
+ kded5,
+ kio,
  melt,
  ffmpeg
 Recommends: swh-plugins,
