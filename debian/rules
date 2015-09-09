@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-#export DH_VERBOSE=1
-
 EXTRAFLAGS :=
 ifeq ($(DEB_BUILD_ARCH_OS),kfreebsd)
 	EXTRAFLAGS := -DNO_JOGSHUTTLE=YES
@@ -19,7 +17,7 @@ override_dh_compress:
 override_dh_install:
 	rm -f $(CURDIR)/debian/tmp/usr/share/doc/kde/HTML/*/kdenlive/common
 	cp $(CURDIR)/data/kdenlive.menu $(CURDIR)/debian/
-	dh_install
+	dh_install --list-missing
 
 override_dh_strip:
 	dh_strip --dbg-package=kdenlive-dbg

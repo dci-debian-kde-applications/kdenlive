@@ -1,2 +1,3 @@
 01-desktop-keywords.diff
-opengl_optional.patch
+02-fix-spelling-error.diff
+03-armhf-armel-use-opengles.diff

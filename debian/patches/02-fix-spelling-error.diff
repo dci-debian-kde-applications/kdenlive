@@ -1,0 +1,14 @@
+# Fix spelling error.
+
+diff -Naur kdenlive-15.08.0.orig/src/bin/projectclip.cpp kdenlive-15.08.0/src/bin/projectclip.cpp
+--- kdenlive-15.08.0.orig/src/bin/projectclip.cpp	2015-08-12 01:20:55.000000000 +0200
++++ kdenlive-15.08.0/src/bin/projectclip.cpp	2015-08-27 19:16:09.172511189 +0200
+@@ -257,7 +257,7 @@
+ void ProjectClip::setProducer(ClipController *controller, bool replaceProducer)
+ {
+     if (!replaceProducer && m_controller) {
+-        qDebug()<<"// RECIEVED PRODUCER BUT WE ALREADY HAVE ONE\n----------";
++        qDebug()<<"// RECEIVED PRODUCER BUT WE ALREADY HAVE ONE\n----------";
+         return;
+     }
+     if (m_controller) {

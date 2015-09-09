@@ -1,11 +1,11 @@
 # Add keywords to desktop file.
 
-diff -Naur kdenlive-0.9.6.orig/data/kdenlive.desktop kdenlive-0.9.6/data/kdenlive.desktop
---- kdenlive-0.9.6.orig/data/kdenlive.desktop	2013-04-06 21:25:09.000000000 +0200
-+++ kdenlive-0.9.6/data/kdenlive.desktop	2013-08-13 11:04:33.996558347 +0200
-@@ -105,4 +105,5 @@
- X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
+diff -Naur kdenlive-15.04.3.orig/data/org.kde.kdenlive.desktop kdenlive-15.04.3/data/org.kde.kdenlive.desktop
+--- kdenlive-15.04.3.orig/data/org.kde.kdenlive.desktop	2015-06-23 16:09:38.000000000 +0200
++++ kdenlive-15.04.3/data/org.kde.kdenlive.desktop	2015-07-08 15:25:13.817058839 +0200
+@@ -124,4 +124,5 @@
  Terminal=false
  MimeType=application/x-kdenlive;
-+Keywords=video;audio;firewire;video4linux;suite;editing;kde;mlt;
  Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
++Keywords=video;audio;firewire;video4linux;suite;editing;kde;mlt;
+ X-DBUS-ServiceName=org.kde.kdenlive

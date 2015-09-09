@@ -1,3 +1,45 @@
+kdenlive (15.08.0-2) unstable; urgency=medium
+
+  * Add dependency on kinit, kded5 and kio. Without it the file browser will
+    not work.
+    Closes: #797684
+  * Add again patch 03-armhf-armel-use-opengles, it was not merged.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 Sep 2015 10:19:24 +0200
+
+kdenlive (15.08.0-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Remove merged patch 02-armhf-armel-use-opengles.
+    - Add new build dependency qtdeclarative5-dev.
+  * Adjust debian/copyright.
+  * Add patch 02-fix-spelling-error to fix a spelling error.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 27 Aug 2015 19:17:49 +0200
+
+kdenlive (15.04.3-2) unstable; urgency=medium
+
+  * Cherry pick Ubuntu patch 02-armhf-armel-use-opengles to fix a FTBFS on
+    armel and armhf.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 27 Jul 2015 18:09:25 +0200
+
+kdenlive (15.04.3-1) unstable; urgency=low
+
+  * New upstream release.
+    - Rewrite patch 01-desktop-keywords.
+    - Rewrite the whole build dependencies.
+    - Build against Qt5.
+      Closes: #788790
+    - Adjust install files.
+  * Adjust debian/watch download location.
+  * Switch away from libav to ffmpeg.
+  * Bump mlt build dependency up to version 0.9.6-3~ to ensure that it has been
+    built against ffmpeg and Qt5.
+  * Update to DEP5 debian/copyright format.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 09 Jul 2015 09:38:16 +0200
+
 kdenlive (0.9.10-2ubuntu1) vivid; urgency=low
 
   * Merge from Debian unstable. (LP: #1402216, #1346733)
