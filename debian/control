@@ -4,52 +4,55 @@ Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9),
- pkg-config,
- cmake,
- libmlt-dev (>= 0.9.6-3~),
- libmlt++-dev (>= 0.9.6-3~),
- ffmpeg,
- libqt5opengl5-dev,
- extra-cmake-modules,
- qtscript5-dev,
- libqt5svg5-dev,
- kdoctools-dev,
- kio-dev,
- libv4l-dev,
- libkf5archive-dev,
- libkf5bookmarks-dev,
- libkf5config-dev,
- libkf5configwidgets-dev,
- libkf5coreaddons-dev,
- libkf5dbusaddons-dev,
- libkf5guiaddons-dev,
- libkf5iconthemes-dev,
- libkf5newstuff-dev,
- libkf5notifications-dev,
- libkf5notifyconfig-dev,
- libkf5plotting-dev,
- libkf5textwidgets-dev,
- libkf5widgetsaddons-dev,
- qtdeclarative5-dev,
- libkf5xmlgui-dev
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 1.2.0~),
+               ffmpeg,
+               kdoctools-dev,
+               kio-dev,
+               libgl1-mesa-dev,
+               libkf5archive-dev,
+               libkf5bookmarks-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5guiaddons-dev,
+               libkf5iconthemes-dev,
+               libkf5newstuff-dev,
+               libkf5notifications-dev,
+               libkf5notifyconfig-dev,
+               libkf5plotting-dev,
+               libkf5textwidgets-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libmlt++-dev (>= 0.9.6-3~),
+               libmlt-dev (>= 0.9.6-3~),
+               libqt5opengl5-dev,
+               libqt5svg5-dev,
+               libv4l-dev,
+               pkg-config,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtscript5-dev,
+               shared-mime-info
 
 Package: kdenlive
 Architecture: any
-Depends: ${shlibs:Depends},
- ${misc:Depends},
- kdenlive-data (= ${source:Version}),
- kinit,
- kded5,
- kio,
- melt,
- ffmpeg
-Recommends: swh-plugins,
- dvgrab,
- frei0r-plugins,
- recordmydesktop,
- dvdauthor,
- genisoimage
+Depends: ffmpeg,
+         kded5,
+         kdenlive-data (= ${source:Version}),
+         kinit,
+         kio,
+         melt,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: dvdauthor,
+            dvgrab,
+            frei0r-plugins,
+            genisoimage,
+            recordmydesktop,
+            swh-plugins
 Suggests: khelpcenter
 Description: non-linear video editor
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
@@ -84,8 +87,7 @@ Package: kdenlive-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends},
- kdenlive (= ${binary:Version})
+Depends: kdenlive (= ${binary:Version}), ${misc:Depends}
 Description: non-linear video editor (debugging symbols)
  Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
  more formats.
