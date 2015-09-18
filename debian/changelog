@@ -1,6 +1,6 @@
 kdenlive (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release (15.08.1)
+  * New upstream release (15.18.1)
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 23:33:28 +0100
 
@@ -8,7 +8,7 @@ kdenlive (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Link with the OpenGLES libraries.
 
- -- Matthias Klose <doko@ubuntu.com>  Sun, 30 Aug 2015.08.17:57 +0200
+ -- Matthias Klose <doko@ubuntu.com>  Sun, 30 Aug 2015 18:17:57 +0200
 
 kdenlive (4:15.08.0-0ubuntu1) wily; urgency=medium
 
