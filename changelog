@@ -1,3 +1,9 @@
+kdenlive (15.08.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 13:51:04 +0200
+
 kdenlive (15.08.0-2) unstable; urgency=medium
 
   * Add dependency on kinit, kded5 and kio. Without it the file browser will
