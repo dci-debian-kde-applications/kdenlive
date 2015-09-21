@@ -1,11 +1,11 @@
-kdenlive (15.08.1-1) UNRELEASED; urgency=medium
+kdenlive (15.08.1-1) unstable; urgency=medium
 
   * New upstream release.
     - Refresh hunky patch 01-desktop-keywords.
     - Refresh hunky patch 02-fix-spelling-error.
     - Rewrite patch 03-armhf-armel-use-opengles.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 13:51:04 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 14:00:14 +0200
 
 kdenlive (15.08.0-2) unstable; urgency=medium
 
