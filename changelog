@@ -2,6 +2,7 @@ kdenlive (15.08.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Refresh hunky patch 01-desktop-keywords.
+    - Refresh hunky patch 02-fix-spelling-error.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 13:51:04 +0200
 
