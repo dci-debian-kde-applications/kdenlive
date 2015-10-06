@@ -2,6 +2,7 @@ kdenlive (15.08.1-2) UNRELEASED; urgency=medium
 
   * Add dependency on qml-module-qtquick2.
     Closes: #800625
+  * Remove patch 03-armhf-armel-use-opengles.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 06 Oct 2015 10:27:09 +0200
 
