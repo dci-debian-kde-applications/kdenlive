@@ -39,6 +39,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends},
  kdenlive-data (= ${source:Version}),
+ qml-module-qtquick2,
  kinit,
  kded5,
  kio,
