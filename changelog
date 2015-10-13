@@ -1,9 +1,9 @@
-kdenlive (15.08.2-1) UNRELEASED; urgency=medium
+kdenlive (15.08.2-1) unstable; urgency=medium
 
   * New upstream release.
   * Add build dependency on kde-workspace-dev for missing FindOpenGLES.cmake.
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 08 Oct 2015 18:28:42 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Oct 2015 13:25:04 +0200
 
 kdenlive (15.08.1-2) unstable; urgency=medium
 
