@@ -1,9 +1,32 @@
-kdenlive (15.08.2-1~) UNRELEASED; urgency=medium
+kdenlive (15.08.2-2) UNRELEASED; urgency=medium
 
-  * New upstream release (15.08.1).
-  * New upstream release (15.08.2).
+  * Do not ship menu file anymore.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:29:29 +0200
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Oct 2015 14:34:53 +0200
+
+kdenlive (15.08.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add build dependency on kde-workspace-dev for missing FindOpenGLES.cmake.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Oct 2015 13:25:04 +0200
+
+kdenlive (15.08.1-2) unstable; urgency=medium
+
+  * Add dependency on qml-module-qtquick2.
+    Closes: #800625
+  * Remove patch 03-armhf-armel-use-opengles.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 06 Oct 2015 10:28:07 +0200
+
+kdenlive (15.08.1-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Refresh hunky patch 01-desktop-keywords.
+    - Refresh hunky patch 02-fix-spelling-error.
+    - Rewrite patch 03-armhf-armel-use-opengles.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 14:00:14 +0200
 
 kdenlive (15.08.0-2) unstable; urgency=medium
 
