@@ -1,3 +1,9 @@
+kdenlive (4:15.08.2~really15.08.1-0ubuntu1) wily; urgency=medium
+
+  * Revert back to 15.08.1 for https://bugs.kde.org/show_bug.cgi?id=354045
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Oct 2015 23:05:57 +0100
+
 kdenlive (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
