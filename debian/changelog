@@ -1,3 +1,9 @@
+kdenlive (4:15.08.2.1~really15.08.1-0ubuntu2) wily; urgency=medium
+
+  * Add back kubuntu_use_gles_on_armhf.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 20 Oct 2015 09:30:51 +0100
+
 kdenlive (4:15.08.2.1~really15.08.1-0ubuntu1) wily; urgency=medium
 
   * Revert back to 15.08.1 for https://bugs.kde.org/show_bug.cgi?id=354045
