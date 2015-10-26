@@ -1,5 +1,8 @@
-kdenlive (15.08.2-2) UNRELEASED; urgency=high
+kdenlive (15.08.2+git20151026-1) UNRELEASED; urgency=high
 
+  * New upstream git snapshot.
+    - Crashes in application due of missbackported patch are fixed.
+      Closes: #802592, #802824
   * Do not ship menu file anymore.
   * Remove deprecated build dependency on kde-workspace-dev.
     Closes: #802339
