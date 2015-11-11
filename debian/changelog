@@ -1,6 +1,7 @@
 kdenlive (4:15.08.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Remove upstream applied kubuntu_use_gles_on_armhf.diff 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 16:06:11 -0800
 
