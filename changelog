@@ -1,3 +1,10 @@
+kdenlive (15.08.3-2) UNRELEASED; urgency=medium
+
+  * Add upstream patch 01-crash-when-deleting-tracks.
+    Closes: #807978
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 16 Dec 2015 11:20:45 +0100
+
 kdenlive (15.08.3-1) unstable; urgency=medium
 
   * New upstream release.
