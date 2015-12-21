@@ -1,4 +1,4 @@
-kdenlive (15.12.0-1) UNRELEASED; urgency=medium
+kdenlive (15.12.0-1) unstable; urgency=medium
 
   * New upstream release.
     - Fixes crash when deleting tracks.
@@ -7,7 +7,7 @@ kdenlive (15.12.0-1) UNRELEASED; urgency=medium
     render ressetting frame rate to default 25.
     Closes: #807684
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Dec 2015 13:38:03 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Dec 2015 13:44:57 +0100
 
 kdenlive (15.08.3-1) unstable; urgency=medium
 
