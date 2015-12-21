@@ -1,6 +1,8 @@
 kdenlive (15.12.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+    - Fixes crash when deleting tracks.
+      Closes: #807978
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Dec 2015 13:38:03 +0100
 
