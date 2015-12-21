@@ -3,6 +3,9 @@ kdenlive (15.12.0-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Fixes crash when deleting tracks.
       Closes: #807978
+  * Add upstream patch 01-render-with-rescale-changes-fps: Fix resizing on
+    render ressetting frame rate to default 25.
+    Closes: #807684
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Dec 2015 13:38:03 +0100
 

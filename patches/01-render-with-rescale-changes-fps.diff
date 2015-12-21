@@ -1,0 +1,24 @@
+commit caf513092be17d72a7117d7dc6d60826728a1b81
+Author: Jean-Baptiste Mardelle <jb@kdenlive.org>
+Date:   Wed Dec 16 19:19:30 2015 +0100
+
+    Fix resizing on render ressetting frame rate to default 25
+
+diff --git a/renderer/renderjob.cpp b/renderer/renderjob.cpp
+index f7314cc..918753f 100644
+--- a/renderer/renderjob.cpp
++++ b/renderer/renderjob.cpp
+@@ -66,11 +66,10 @@ RenderJob::RenderJob(bool erase, bool usekuiserver, int pid, const QString& rend
+     if (out != -1) m_args << QLatin1String("out=") + QString::number(out);
+     m_args << preargs;
+     if (scenelist.startsWith(QLatin1String("consumer:"))) {
+-        // Use MLT's producer_consumer, needs a different syntax for profile:
++        // Use MLT's producer_consumer, safer to pass profile in an explicit way
+         m_args << QLatin1String("profile=") + profile;
+-    } else {
+-        m_args << QLatin1String("-profile") << profile;
+     }
++    m_args << QLatin1String("-profile") << profile;
+     m_args << QLatin1String("-consumer") << rendermodule + QLatin1Char(':') + m_dest
+            << QLatin1String("progress=1") << args;
+ 
