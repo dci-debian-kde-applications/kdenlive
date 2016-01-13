@@ -2,6 +2,8 @@ kdenlive (15.12.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Drop merged patch 01-render-with-rescale-changes-fps.
+    - Fixes wrong number at transcode profile.
+      Closes: #809231
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 13 Jan 2016 09:17:52 +0100
 
