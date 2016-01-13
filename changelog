@@ -5,6 +5,7 @@ kdenlive (15.12.1-1) UNRELEASED; urgency=medium
     - Fixes wrong number at transcode profile.
       Closes: #809231
   * Raise minimum required mlt version up to 0.9.8.
+  * Add dependency on kde-runtime.
 
  -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 13 Jan 2016 09:17:52 +0100
 
