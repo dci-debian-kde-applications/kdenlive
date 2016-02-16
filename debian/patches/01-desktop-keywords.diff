@@ -1,8 +1,9 @@
 # Add keywords to desktop file.
 
-diff -Naur kdenlive-15.08.1.orig/data/org.kde.kdenlive.desktop kdenlive-15.08.1/data/org.kde.kdenlive.desktop
---- kdenlive-15.08.1.orig/data/org.kde.kdenlive.desktop	2015-09-11 00:31:47.000000000 +0200
-+++ kdenlive-15.08.1/data/org.kde.kdenlive.desktop	2015-09-21 13:55:29.235494220 +0200
+diff --git a/data/org.kde.kdenlive.desktop b/data/org.kde.kdenlive.desktop
+index 9dd5d4d..bfdbd39 100644
+--- a/data/org.kde.kdenlive.desktop
++++ b/data/org.kde.kdenlive.desktop
 @@ -126,7 +126,7 @@ X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
  Terminal=false
  MimeType=application/x-kdenlive;
