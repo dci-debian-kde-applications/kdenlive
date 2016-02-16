@@ -1,9 +1,8 @@
 # Add keywords to desktop file.
 
 diff --git a/data/org.kde.kdenlive.desktop b/data/org.kde.kdenlive.desktop
-index 9dd5d4d..bfdbd39 100644
---- a/data/org.kde.kdenlive.desktop
-+++ b/data/org.kde.kdenlive.desktop
+--- data/org.kde.kdenlive.desktop
++++ data/org.kde.kdenlive.desktop
 @@ -126,7 +126,7 @@ X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
  Terminal=false
  MimeType=application/x-kdenlive;
