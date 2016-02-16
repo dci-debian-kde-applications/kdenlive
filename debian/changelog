@@ -17,6 +17,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * 7 
   * git diff is picking up wrong line number? Trying 125 as that is the @@ line. 
   * Remove patch 02-fix-spelling-error.diff fixed upstream. 
+  * git rm the patch. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
 
