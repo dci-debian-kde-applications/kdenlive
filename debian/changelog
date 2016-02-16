@@ -8,6 +8,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release. 
   * Refresh kkeyword patch. 
     Note: Needs to be looked at, I cannot translate the remaining... 
+  * Fix patch line. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
 
