@@ -3,7 +3,7 @@
 diff -Naur kdenlive-15.08.1.orig/data/org.kde.kdenlive.desktop kdenlive-15.08.1/data/org.kde.kdenlive.desktop
 --- kdenlive-15.08.1.orig/data/org.kde.kdenlive.desktop	2015-09-11 00:31:47.000000000 +0200
 +++ kdenlive-15.08.1/data/org.kde.kdenlive.desktop	2015-09-21 13:55:29.235494220 +0200
-@@ -126,4 +126,4 @@
+@@ -126,5 +126,5 @@
  Terminal=false
  MimeType=application/x-kdenlive;
  Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
