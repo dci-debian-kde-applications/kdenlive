@@ -7,5 +7,6 @@ diff -Naur kdenlive-15.08.1.orig/data/org.kde.kdenlive.desktop kdenlive-15.08.1/
  Terminal=false
  MimeType=application/x-kdenlive;
  Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
+-Keywords=editing;video;audio;mlt;kde;
 +Keywords=video;audio;firewire;video4linux;suite;editing;kde;mlt;
- X-DBUS-ServiceName=org.kde.kdenlive
+ Keywords[ca]=edició;vídeo;àudio;mlt;kde;
