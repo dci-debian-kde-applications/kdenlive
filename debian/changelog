@@ -12,6 +12,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix EOL patch. 
   * Fix patch again. 
   * Patch.. 
+  * git diff patch with upstream sources. If it does not apply, I give up. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
 
