@@ -1,6 +1,11 @@
-kdenlive (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
 
@@ -67,6 +72,83 @@ kdenlive (4:15.04.2-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 09 Jun 2015 18:53:45 +0200
+
+kdenlive (15.12.0-1~) UNRELEASED; urgency=medium
+
+  [ Patrick Matthäi ]
+  * Do not ship menu file anymore.
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.08.3).
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:17:49 +0100
+
+kdenlive (15.08.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add build dependency on kde-workspace-dev for missing FindOpenGLES.cmake.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 13 Oct 2015 13:25:04 +0200
+
+kdenlive (15.08.1-2) unstable; urgency=medium
+
+  * Add dependency on qml-module-qtquick2.
+    Closes: #800625
+  * Remove patch 03-armhf-armel-use-opengles.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 06 Oct 2015 10:28:07 +0200
+
+kdenlive (15.08.1-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Refresh hunky patch 01-desktop-keywords.
+    - Refresh hunky patch 02-fix-spelling-error.
+    - Rewrite patch 03-armhf-armel-use-opengles.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 21 Sep 2015 14:00:14 +0200
+
+kdenlive (15.08.0-2) unstable; urgency=medium
+
+  * Add dependency on kinit, kded5 and kio. Without it the file browser will
+    not work.
+    Closes: #797684
+  * Add again patch 03-armhf-armel-use-opengles, it was not merged.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 03 Sep 2015 10:19:24 +0200
+
+kdenlive (15.08.0-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Remove merged patch 02-armhf-armel-use-opengles.
+    - Add new build dependency qtdeclarative5-dev.
+  * Adjust debian/copyright.
+  * Add patch 02-fix-spelling-error to fix a spelling error.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 27 Aug 2015 19:17:49 +0200
+
+kdenlive (15.04.3-2) unstable; urgency=medium
+
+  * Cherry pick Ubuntu patch 02-armhf-armel-use-opengles to fix a FTBFS on
+    armel and armhf.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Mon, 27 Jul 2015 18:09:25 +0200
+
+kdenlive (15.04.3-1) unstable; urgency=low
+
+  * New upstream release.
+    - Rewrite patch 01-desktop-keywords.
+    - Rewrite the whole build dependencies.
+    - Build against Qt5.
+      Closes: #788790
+    - Adjust install files.
+  * Adjust debian/watch download location.
+  * Switch away from libav to ffmpeg.
+  * Bump mlt build dependency up to version 0.9.6-3~ to ensure that it has been
+    built against ffmpeg and Qt5.
+  * Update to DEP5 debian/copyright format.
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Thu, 09 Jul 2015 09:38:16 +0200
 
 kdenlive (0.9.50-0ubuntu1) UNRELEASED; urgency=medium
 
