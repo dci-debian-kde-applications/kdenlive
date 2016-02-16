@@ -1,9 +1,9 @@
 # Add keywords to desktop file.
 
 diff --git a/data/org.kde.kdenlive.desktop b/data/org.kde.kdenlive.desktop
---- data/org.kde.kdenlive.desktop
-+++ data/org.kde.kdenlive.desktop
-@@ -126,7 +126,7 @@ X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
+--- a/data/org.kde.kdenlive.desktop
++++ b/data/org.kde.kdenlive.desktop
+@@ -125,7 +125,7 @@ X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
  Terminal=false
  MimeType=application/x-kdenlive;
  Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
