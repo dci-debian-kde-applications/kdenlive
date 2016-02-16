@@ -6,10 +6,11 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge: No remaining changes.
   * New upstream release. 
-  * Refresh kkeyword patch. 
+  * Refresh keyword patch. 
     Note: Needs to be looked at, I cannot translate the remaining... 
   * Fix patch line. 
   * Fix EOL patch. 
+  * Fix patch again. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
 
