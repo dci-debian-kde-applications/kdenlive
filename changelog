@@ -1,9 +1,9 @@
-kdenlive (15.12.2-1) UNRELEASED; urgency=medium
+kdenlive (15.12.2-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Standards-Version to 3.9.7 (no changes required).
 
- -- Patrick Matthäi <pmatthaei@debian.org>  Tue, 02 Feb 2016 09:29:28 +0100
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 08:53:53 +0100
 
 kdenlive (15.12.1-2) unstable; urgency=medium
 
