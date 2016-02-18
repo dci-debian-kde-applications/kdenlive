@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
 EXTRAFLAGS :=
 ifeq ($(DEB_BUILD_ARCH_OS),kfreebsd)
 	EXTRAFLAGS := -DNO_JOGSHUTTLE=YES
