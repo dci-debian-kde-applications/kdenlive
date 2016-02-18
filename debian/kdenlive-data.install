@@ -1,10 +1,10 @@
-usr/share/icons
-usr/share/mime
 etc/xdg
 usr/share/appdata
-usr/share/kxmlgui5
-usr/share/kservices5
-usr/share/knotifications5
-usr/share/doc/HTML
-usr/share/kdenlive
 usr/share/config.kcfg
+usr/share/doc/HTML
+usr/share/icons
+usr/share/kdenlive
+usr/share/knotifications5
+usr/share/kservices5
+usr/share/kxmlgui5
+usr/share/mime

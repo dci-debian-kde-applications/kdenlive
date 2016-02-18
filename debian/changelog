@@ -4,6 +4,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * We are a release behind.
   * Fix merge into kubuntu_unstable 
   * Sadly we must keep the epoch. 
+  * Add missing files. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Feb 2016 11:21:37 -0800
 

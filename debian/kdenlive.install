@@ -1,4 +1,6 @@
-usr/lib usr/
-usr/share/man
 usr/bin usr/
+usr/lib usr/
 usr/share/applications
+usr/share/man
+usr/share/menu/kdenlive
+usr/share/pixmaps/kdenlive.png
