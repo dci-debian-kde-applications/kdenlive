@@ -6,8 +6,17 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Sadly we must keep the epoch. 
   * Add missing files. 
   * Rearrange changelog to get past epoch validation test. 
+  * Revert above and merge in changes from unstable,
+    where all of my changes were done... 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Feb 2016 11:21:37 -0800
+
+kdenlive (15.12.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.7 (no changes required).
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 08:53:53 +0100
 
 kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
@@ -31,13 +40,6 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * git rm the patch.
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
-
-kdenlive (15.12.2-1) unstable; urgency=medium
-
-  * New upstream release.
-  * Bump Standards-Version to 3.9.7 (no changes required).
-
- -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 08:53:53 +0100
 
 kdenlive (15.12.1-2) unstable; urgency=medium
 
