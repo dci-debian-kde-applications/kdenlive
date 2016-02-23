@@ -5,22 +5,9 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix merge into kubuntu_unstable 
   * Sadly we must keep the epoch. 
   * Add missing files. 
+  * Rearrange changelog to get past epoch validation test. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Feb 2016 11:21:37 -0800
-
-kdenlive (15.12.2-2) UNRELEASED; urgency=medium
-
-  * Fix spelling error in debian/copyright.
-  * Enable full hardening.
-
- -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 09:21:35 +0100
-
-kdenlive (15.12.2-1) unstable; urgency=medium
-
-  * New upstream release.
-  * Bump Standards-Version to 3.9.7 (no changes required).
-
- -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 08:53:53 +0100
 
 kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
@@ -29,21 +16,28 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes.
-  * New upstream release. 
-  * Refresh keyword patch. 
-    Note: Needs to be looked at, I cannot translate the remaining... 
-  * Fix patch line. 
-  * Fix EOL patch. 
-  * Fix patch again. 
-  * Patch.. 
-  * git diff patch with upstream sources. If it does not apply, I give up. 
-  * Patch madness, does not apply, attempt 6. 
-  * 7 
-  * git diff is picking up wrong line number? Trying 125 as that is the @@ line. 
-  * Remove patch 02-fix-spelling-error.diff fixed upstream. 
-  * git rm the patch. 
+  * New upstream release.
+  * Refresh keyword patch.
+    Note: Needs to be looked at, I cannot translate the remaining...
+  * Fix patch line.
+  * Fix EOL patch.
+  * Fix patch again.
+  * Patch..
+  * git diff patch with upstream sources. If it does not apply, I give up.
+  * Patch madness, does not apply, attempt 6.
+  * 7
+  * git diff is picking up wrong line number? Trying 125 as that is the @@ line.
+  * Remove patch 02-fix-spelling-error.diff fixed upstream.
+  * git rm the patch.
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:48:55 +0000
+
+kdenlive (15.12.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.7 (no changes required).
+
+ -- Patrick Matthäi <pmatthaei@debian.org>  Wed, 17 Feb 2016 08:53:53 +0100
 
 kdenlive (15.12.1-2) unstable; urgency=medium
 
