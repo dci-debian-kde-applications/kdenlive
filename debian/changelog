@@ -10,6 +10,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
     where all of my changes were done... 
   * Add missing dependencies. 
   * Put manpage back in -data. 
+  * fix merger. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Feb 2016 11:21:37 -0800
 
