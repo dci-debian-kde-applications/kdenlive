@@ -1,4 +1,4 @@
-kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kdenlive (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge from pmatthaei svn.
@@ -19,7 +19,7 @@ kdenlive (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * fix merger. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Feb 2016 11:21:37 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:38:18 +0100
 
 kdenlive (15.12.2-1) unstable; urgency=medium
 
