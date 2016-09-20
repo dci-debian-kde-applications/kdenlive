@@ -1,5 +1,4 @@
 etc/xdg
-usr/share/*/kdenlive.appdata.xml
 usr/share/config.kcfg
 usr/share/doc/HTML
 usr/share/icons
@@ -7,5 +6,6 @@ usr/share/kdenlive
 usr/share/knotifications5
 usr/share/kservices5
 usr/share/kxmlgui5
+usr/share/metainfo/org.kde.kdenlive.appdata.xml
 usr/share/mime
 usr/share/pixmaps/kdenlive.svg
