@@ -1,5 +1,5 @@
 etc/xdg
-usr/share/*/kdenlive.appdata.xml
+usr/share/*/org.kde.kdenlive.appdata.xml
 usr/share/config.kcfg
 usr/share/doc/HTML
 usr/share/icons
