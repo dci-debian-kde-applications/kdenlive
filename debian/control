@@ -88,21 +88,3 @@ Description: non-linear video editor (data files)
   * Exporting to any by FFMPEG supported format
  .
  This package contains the data files for kdenlive.
-
-Package: kdenlive-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kdenlive (= ${binary:Version}), ${misc:Depends}
-Description: non-linear video editor (debugging symbols)
- Kdenlive is a non-linear video editing suite, which supports DV, HDV and many
- more formats.
- Its main features are:
-  * Guides and marker for organizing timelines
-  * Copy and paste support for clips, effects and transitions
-  * Real time changes
-  * FireWire and Video4Linux capture
-  * Screen grabbing
-  * Exporting to any by FFMPEG supported format
- .
- This package contains the debugging symbols for kdenlive.
