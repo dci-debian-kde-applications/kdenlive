@@ -1,7 +1,8 @@
 Source: kdenlive
 Section: video
 Priority: optional
-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+XSBC-Original-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Homepage: http://www.kdenlive.org/
 Standards-Version: 3.9.6
 Build-Depends: cmake (>= 2.8.12~),
